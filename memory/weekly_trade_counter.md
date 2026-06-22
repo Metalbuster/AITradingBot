@@ -10,6 +10,9 @@ daily_loss_halt: false
 halt_reason: 
 halt_date: 
 
+## EOD Reset — 2026-06-22
+daily_loss_halt reset to false by EOD routine.
+
 ## Trade History This Week
 | Date | Ticker | Shares | Entry | Order ID |
 |---|---|---|---|---|
