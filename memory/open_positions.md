@@ -1,6 +1,6 @@
 # Open Positions
 
-Last updated: 2026-06-22 10:35 ET (intraday monitor)
+Last updated: 2026-06-22 15:31 ET (intraday monitor)
 
 | Ticker | Shares | Entry Price | Entry Date | Cost Basis | Stop-Loss | TP1 (+8%) | TP2 (+15%) | TP3 (+25%) | Order ID |
 |---|---|---|---|---|---|---|---|---|---|
