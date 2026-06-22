@@ -55,3 +55,35 @@ All 7 cloud routines registered (8 scheduled tasks — intraday monitor split in
 
 **Mode:** Paper trading (live_trading: false)
 ---
+
+## 2026-06-22 — Pre-Market Research Run #2
+
+**Tickers Scanned:** 15 (AAPL, MSFT, NVDA, TSLA, AMZN, META, GOOGL, AMD, SMCI, PLTR, SOFI, RIVN, COIN, SPY, QQQ)
+
+**Market Status — TRADE_OK: YES**
+- SPY: $746.74 — ABOVE 5-day MA ($746.56) ✅
+- VIX: 17.50 — below 28 threshold ✅ (minor uptick from Friday's 16.41, not concerning)
+- US-Iran peace deal positive for geopolitical risk sentiment
+- Fed hawkish tone (rate hike hinted year-end) — mild headwind, not a blocker
+- Tech/AI sector retaking leadership: NVDA +2.95%, META +1.70%, GOOGL +1.48%
+- Intel +13% on Google-Intel partnership — chip stocks having best day in a year
+
+**Top 3 Candidates by Score:**
+1. NVDA — 92/100 | Best-in-class AI momentum; data center +85% YoY; $275 avg PT; 38 analysts Strong Buy
+2. META — 86/100 | Ad revenue +33% YoY; AI upside; strong analyst conviction; $577 intraday
+3. MSFT — 84/100 | Azure +31%; AI leadership; $561 avg PT (+48% upside); 56 analysts Strong Buy
+
+**Next-Tier Candidates (score 70–75):**
+- AMZN 82: Prime Day June 23–26 imminent; AWS +28% YoY — strong near-term catalyst
+- AMD 81: AI/data-center growth; Barclays $665 PT; chip sector tailwind today
+- GOOGL 78: Intel-Google partnership news; Gemini AI; 78% analyst Buy
+- AAPL 77: Post-WWDC stabilization; $298; analysts raising PT to $350
+- PLTR 74: AI/data platform; demanding valuation but narrative intact
+- COIN 74: Crypto regime improving; $296 avg PT; bullish analyst consensus
+
+**Below Threshold:**
+- QQQ 69, SPY 66, SMCI 66, RIVN 61, TSLA 58, SOFI 58
+
+**Weekly Trade Counter:** 0/3 trades used — full capacity available
+**Mode:** Paper trading (live_trading: false)
+---

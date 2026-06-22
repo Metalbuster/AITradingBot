@@ -1,114 +1,109 @@
 # Research Cache
 
-Last Updated: 2026-06-21 (pre-market Saturday)
-Source: Perplexity AI / Web Research via deep-research harness
+Last Updated: 2026-06-22 (pre-market Monday)
+Source: Perplexity AI (sonar model) / Web Research
 Tickers Scanned: 15
 
 ---
 
 ## Scores (0–100 bullish momentum)
 
-| Ticker | Score | Trend     | Key Catalyst                                      |
-|--------|-------|-----------|---------------------------------------------------|
-| AMZN   | 80    | Bullish   | Prime Day June 23–26; AWS +28% YoY; Strong Buy 45/1 analysts; +31% PT upside |
-| PLTR   | 80    | Bullish   | Q1 beat + raised FY guidance; Rosenblatt $225 PT (+60%); AI-driven revenue growth |
-| SPY    | 76    | Bullish   | Above 5-day MA; VIX 16.41; S&P weekly +0.93%; risk-on regime |
-| NVDA   | 75    | Bullish   | Q1 FY27: $81.6B rev +85% YoY; $275 avg PT; 38 analysts Strong Buy; ~$5.1T mkt cap |
-| GOOGL  | 74    | Bullish   | Strong Buy 78% of analysts; $432 avg PT (+18%); Gemini AI roadmap |
-| QQQ    | 74    | Bullish   | Nasdaq +2.43% weekly; +24.8% projected 12-mo return; tech inflows $9B in May |
-| AAPL   | 72    | Bullish   | Q2 EPS beat; iPhone 17 +22% YoY; $100B buyback; CEO transition Sept |
-| META   | 70    | Bullish   | Rev +33% YoY; Muse Spark AI model; risk: $125–145B capex ROI uncertainty |
-| MSFT   | 68    | Neutral   | Azure +31%; -21% YTD creates value; $561 avg PT (+48%); hawkish Fed headwind |
-| TSLA   | 62    | Neutral   | JPM upgrade to Neutral ($475 PT); next earnings July 22; FSD EU risk |
-| COIN   | 60    | Neutral   | Buy consensus, $296 avg PT (+79%); but crypto ETF outflows $1.72B/week; earnings July 30 |
-| SOFI   | 58    | Neutral   | Stablecoin launch positive; Truist downgraded PT to $17; mixed lending outlook |
-| SMCI   | 55    | Neutral   | +10% June 18 on guidance raise; DOJ indicted former insiders; avg rating: Hold |
-| AMD    | 65    | Bullish   | +130% YTD near $510; avg PT $472 (below current); P/E 169x; Barclays PT $665 |
-| RIVN   | 48    | Bearish   | R2 deliveries started; NHTSA probe on R1S; layoffs; still deeply unprofitable |
+| Ticker | Score | Trend     | Key Catalyst                                                      |
+|--------|-------|-----------|-------------------------------------------------------------------|
+| NVDA   | 92    | Bullish   | Best-in-class AI momentum; 38 analysts Strong Buy; $275 avg PT; data center +85% YoY |
+| META   | 86    | Bullish   | Strong ad revenue +33% YoY; AI upside; favorable analyst sentiment; $577 intraday |
+| MSFT   | 84    | Bullish   | AI/cloud leadership (Azure +31%); broad analyst conviction; $379 price |
+| AMZN   | 82    | Bullish   | Prime Day June 23–26 imminent; AWS +28% YoY; 45/1 analyst Buy; avg PT $319 |
+| AMD    | 81    | Bullish   | AI/data-center growth; strong momentum; trails NVDA but catching up |
+| GOOGL  | 78    | Bullish   | Strong fundamentals; 78% analyst buy; Gemini AI; Intel partnership news |
+| AAPL   | 77    | Bullish   | Post-WWDC recovery; $298 price; analysts broadly raising PT to $350 |
+| PLTR   | 74    | Bullish   | AI/data platform; improving sentiment; demanding valuation |
+| COIN   | 74    | Bullish   | Crypto-linked momentum; bullish analyst regime; $296 avg PT |
+| QQQ    | 69    | Neutral   | Growth-sector ETF; constructive but moderate momentum |
+| SPY    | 66    | Neutral   | Benchmark ETF in uptrend; steady rather than high-momentum |
+| SMCI   | 66    | Neutral   | AI server exposure; high volatility; accounting/governance overhang |
+| RIVN   | 61    | Neutral   | R2 deliveries started; positive multi-month rally; mixed analyst views |
+| TSLA   | 58    | Neutral   | Volatile, news-driven; less consistent fundamentals; limited near-term catalyst |
+| SOFI   | 58    | Neutral   | Mixed technical; Hold consensus; +17% recent rally but still down 36% YTD |
 
 ---
 
 ## Tickers Meeting Entry Score Threshold (≥70)
-AMZN (80), PLTR (80), SPY (76), NVDA (75), GOOGL (74), QQQ (74), AAPL (72), META (70)
+NVDA (92), META (86), MSFT (84), AMZN (82), AMD (81), GOOGL (78), AAPL (77), PLTR (74), COIN (74)
 
 ---
 
 ## Ticker Summaries
 
-### AMZN — Score: 80
-- **Trend:** Bullish. $243 current price; YTD +6%; above 200-day SMA.
-- **Catalyst:** Amazon Prime Day June 23–26 is a near-term revenue catalyst. AWS Q1 grew 28% to $37.6B (fastest in 15 quarters, $150B annualized run rate).
-- **Analysts:** 45 Buys / 1 Hold; avg PT $319 (+31%). BMO Top Pick, $355 PT after AWS Summit.
-- **Risk:** YTD underperformance vs. broader market; 52-week high $278.56 still below July 2025 peak.
+### NVDA — Score: 92
+- **Trend:** Strongly Bullish. ~$210.69 (+2.95% today). Q1 FY27 revenue $81.6B +85% YoY.
+- **Catalyst:** Data center $75.2B revenue; hyperscaler capex $750B in 2026; ~81% AI chip market share.
+- **Analysts:** ~38 Strong Buy; $275 avg PT (range $210–$360). Top conviction AI pick across Wall Street.
+- **Risk:** Valuation debate; semi index (SOXX) volatility; geopolitical GPU export restrictions.
 
-### PLTR — Score: 80
-- **Trend:** Bullish. Approx. $137 current; Q1 beat + raised FY guidance.
-- **Catalyst:** Ontology platform moat; AI government + commercial contracts. Rosenblatt $225 PT (+60%). Loop Capital $220.
-- **Analysts:** 43% Strong Buy, 19% Buy, 33% Hold; avg PT $182.75.
-- **Risk:** High valuation; HSBC trimmed PT to $151 (more cautious).
+### META — Score: 86
+- **Trend:** Bullish. $577.22 (+1.70% today). Revenue +33% YoY; strong advertising cash engine.
+- **Catalyst:** AI-driven ad targeting improvement; Reels monetization; Muse Spark AI model; potential 2026 stock split.
+- **Analysts:** Broad Buy consensus; AI capex ROI concerns offset by strong execution track record.
+- **Risk:** $125–145B capex ROI timeline uncertainty; EU Digital Services Act compliance.
 
-### SPY — Score: 76
-- **Trend:** Bullish. $746.74; above 5-day MA; buy signals on both short/long-term MAs.
-- **Context:** S&P weekly +0.93%; Nasdaq +2.43%; risk-on. Fed held at 3.50%–3.75% (June 18, hawkish tone — short-term headwind).
-- **Risk:** Hawkish Fed interpretation from June 18 press conference; stretched valuations.
+### MSFT — Score: 84
+- **Trend:** Bullish recovery. $379.40 (+0.13% today). Azure +31% YoY; $37B AI annual run rate.
+- **Catalyst:** AI pay-as-you-go pricing expansion; Copilot enterprise adoption; $190B capex commitment.
+- **Analysts:** 56 analysts Strong Buy; $561 avg PT (+48% upside from current levels).
+- **Risk:** Hawkish Fed headwind; valuation still elevated for recovery pace.
 
-### NVDA — Score: 75
-- **Trend:** Bullish. ~$210–211; avg PT $275 (range $210–$360).
-- **Catalyst:** Q1 FY27 revenue $81.6B +85% YoY; data center $75.2B; hyperscaler capex $750B for 2026; ~81% AI chip share.
-- **Risk:** Semi index (SOXX) dropped 10% in single session early June (recovered); valuation debate intense.
+### AMZN — Score: 82
+- **Trend:** Bullish. ~$243 (estimates). Prime Day June 23–26 imminent revenue catalyst.
+- **Catalyst:** AWS Q1 +28% to $37.6B (fastest in 15 quarters); 45/1 analyst Buy; BMO Top Pick $355 PT.
+- **Risk:** YTD underperformance vs. broader market; off July 2025 peak.
 
-### GOOGL — Score: 74
-- **Trend:** Bullish. 78.16% analysts rate Buy; $432 avg PT (+17.6%).
-- **Catalyst:** Gemini AI roadmap; search + cloud monetization; Piper Sandler $445 PT (June 1).
-- **Risk:** Antitrust scrutiny; ad market competition.
+### AMD — Score: 81
+- **Trend:** Bullish. AI/data-center segment growing rapidly; MI300X GPU gaining share.
+- **Catalyst:** Q1 revenue +38% YoY; Lisa Su raised CPU TAM to $120B+; Barclays PT $665.
+- **Risk:** P/E elevated; NVDA entering CPU market; avg analyst PT now below recent highs.
 
-### QQQ — Score: 74
-- **Trend:** Bullish. Nasdaq +2.43% weekly; tech ETF inflows $9B in May.
-- **Analysts:** 12-month projected return +24.8%; top holdings NVDA, AAPL, MSFT.
-- **Risk:** Concentration risk (top 10 = 47% of fund).
+### GOOGL — Score: 78
+- **Trend:** Bullish. $367.46 (+1.48% today). Google-Intel partnership news boosted chip stocks broadly.
+- **Catalyst:** Gemini AI roadmap; Search + Cloud monetization; 78% analyst Buy; avg PT $432.
+- **Risk:** Antitrust scrutiny; competition from OpenAI/Bing; EU regulatory pressure.
 
-### AAPL — Score: 72
-- **Trend:** Bullish. Q2 EPS $2.01 (beat $1.95); revenue $111.18B (+22% iPhone YoY).
-- **Catalyst:** $100B buyback authorized; dividend +4%; Q3 guidance 14–17% revenue growth.
-- **Risk:** CEO transition Sept 2026 (Tim Cook → John Ternus); memory cost headwind from AI demand.
+### AAPL — Score: 77
+- **Trend:** Bullish recovery. $298.01 (+0.70% today). Post-WWDC dip from $317 ATH stabilizing.
+- **Catalyst:** Siri AI rollout (U.S. only initially); TD Cowen $350 PT; Morgan Stanley $360 PT.
+- **Analysts:** 17 Buy / 9 Hold / 1 Sell; consensus "Moderate Buy"; avg PT $314.59.
+- **Risk:** EU/China Siri AI regulatory delay; CEO Tim Cook transition Sept 2026.
 
-### META — Score: 70
-- **Trend:** Bullish. Revenue +33% YoY; Muse Spark AI model launched.
-- **Catalyst:** Reels monetization improving; ad pricing up; potential 2026 stock split.
-- **Risk:** $125–145B capex raises ROI timing concerns; EU DSA compliance risk.
+### PLTR — Score: 74
+- **Trend:** Bullish. ~$137. AI/data platform narrative strong; Q1 beat + raised FY guidance.
+- **Catalyst:** Ontology moat; government + commercial AI contracts; Rosenblatt $225 PT (+60%).
+- **Risk:** High valuation; HSBC cautious at $151; stock highly correlated to AI sentiment.
 
-### MSFT — Score: 68
-- **Trend:** Neutral/value. -21% YTD despite Azure +31% and $37B AI run rate.
-- **Catalyst:** New pay-as-you-go AI pricing model; $190B capex commitment.
-- **Analysts:** 56 analysts Strong Buy; $561 avg PT (+48% upside).
-- **Risk:** YTD underperformance suggests near-term momentum lacking.
+### COIN — Score: 74
+- **Trend:** Bullish. Crypto regime improving; analyst Buy consensus; $296 avg PT.
+- **Catalyst:** Bitcoin activity and trading volumes; improving crypto regulatory environment.
+- **Risk:** Crypto ETF outflow trend (bearish signal if it continues); earnings July 30.
 
-### AMD — Score: 65
-- **Trend:** Neutral (overbought). +130% YTD near $510; avg analyst PT $472 (below current price).
-- **Catalyst:** Q1 rev +38%; Lisa Su raised CPU TAM to $120B+.
-- **Risk:** P/E 169x; avg PT below current price; NVDA entering CPU market.
+### QQQ — Score: 69
+- **Trend:** Neutral/positive. Nasdaq 100 ETF; growth-sector leadership intact.
+- **Risk:** Concentration in top 10 holdings (47% of fund); rate sensitivity.
 
-### TSLA — Score: 62
-- **Trend:** Neutral. $400.49; JPM upgrade to Neutral with $475 PT.
-- **Catalyst:** Autonomous driving / humanoid robotics long thesis; earnings July 22.
-- **Risk:** FSD EU resistance; Musk voting power concentration; near-term catalysts limited.
+### SPY — Score: 66
+- **Trend:** Neutral/steady. $746.74; above 5-day MA; broader market uptrend intact.
+- **Risk:** Hawkish Fed; stretched valuations; narrow leadership concentration in AI/tech.
 
-### COIN — Score: 60
-- **Trend:** Neutral. $164.91; analysts bullish ($296 avg PT, +79%).
-- **Catalyst:** Q2 earnings July 30; crypto regulatory environment improving.
-- **Risk:** Bitcoin ETF record outflows ($1.72B/week, $4.4B in 13 days) — bearish crypto signal near-term.
+### SMCI — Score: 66
+- **Trend:** Neutral. $30.66. AI server demand supports thesis but credibility remains impaired.
+- **Risk:** DOJ indicted 3 former insiders for diverting NVIDIA GPUs to China; avg rating Hold.
+
+### RIVN — Score: 61
+- **Trend:** Neutral. R2 deliveries started; multi-month rally in progress.
+- **Risk:** Still unprofitable; NHTSA probe (R1S suspension); mixed analyst consensus Hold.
+
+### TSLA — Score: 58
+- **Trend:** Neutral. $400.49 area. JPM upgraded to Neutral ($475 PT); limited near-term catalyst.
+- **Risk:** FSD EU resistance; Musk concentration risk; next earnings July 22.
 
 ### SOFI — Score: 58
-- **Trend:** Neutral/mixed. Revenue $1.10B, net income $167M.
-- **Catalyst:** SoFiUSD stablecoin launch; digital payments pivot; $3.4B cash.
-- **Risk:** Truist downgrade (PT cut $20→$17); softer Q2 lending revenue expected.
-
-### SMCI — Score: 55
-- **Trend:** Neutral. $30.66 after +10.37% June 18; avg rating Hold.
-- **Catalyst:** Guidance raise to $11–12.5B Q4; $7B equity financing; 20+ AI server customers.
-- **Risk:** DOJ indicted 3 former insiders (including co-founder) for diverting Nvidia GPUs to China; credibility overhang.
-
-### RIVN — Score: 48
-- **Trend:** Bearish. ~$16.45; deeply unprofitable; restructuring.
-- **Catalyst:** R2 deliveries started; AT&T 5G integration; Volkswagen partnership.
-- **Risk:** NHTSA safety probe (R1S rear suspension); <2% workforce layoff; 52-week low territory risk.
+- **Trend:** Neutral. ~$17–18. Revenue +42.6% YoY strong but stock down 36% YTD; Hold consensus.
+- **Risk:** Valuation and dilution concerns; Truist PT cut to $17; mixed analyst sentiment.
