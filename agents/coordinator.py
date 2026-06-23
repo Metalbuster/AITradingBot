@@ -62,8 +62,8 @@ def run_market_open(tickers=None):
         log.info("[Coordinator] Halted — no trades today")
         return
 
-    if risk.weekly_trades_remaining() <= 0:
-        log.info("[Coordinator] Weekly trade limit reached — no new entries")
+    if risk.daily_trades_remaining() <= 0:
+        log.info("[Coordinator] Daily trade limit reached — no new entries")
         return
 
     ok, pnl = risk.check_daily_loss()
@@ -98,8 +98,8 @@ def run_market_open(tickers=None):
         shares = risk.shares_to_buy(tech["price"])
         execution_agent.open_trade(symbol, score, thesis, tech, shares)
 
-        if risk.weekly_trades_remaining() <= 0:
-            log.info("[Coordinator] Weekly trade limit now reached — stopping")
+        if risk.daily_trades_remaining() <= 0:
+            log.info("[Coordinator] Daily trade limit now reached — stopping")
             break
 
     log.info("[Coordinator] Market open run complete")
@@ -138,6 +138,7 @@ def run_eod():
 
     reporter_agent.run_eod()
     monitor_agent.reset_daily_halt()
+    monitor_agent.reset_daily_counter()
     log.info("[Coordinator] EOD complete")
 
 
@@ -145,7 +146,6 @@ def run_weekly_summary():
     log.info("[Coordinator] Weekly summary run")
     github_sync.pull()
     reporter_agent.run_weekly()
-    monitor_agent.reset_weekly_counter()
 
 
 def run_benchmark():

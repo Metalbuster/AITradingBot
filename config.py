@@ -26,7 +26,7 @@ LOGS_DIR = os.path.join(ROOT_DIR, "logs")
 # --- Hard rules (mirrors strategy.md — code enforcement layer) ---
 MAX_POSITION_PCT = 0.05        # 5% of portfolio per trade
 DAILY_LOSS_CAP_PCT = 0.02      # -2% daily loss halts all routines
-MAX_TRADES_PER_WEEK = 3
+MAX_TRADES_PER_DAY = 3
 ALLOW_OPTIONS = False          # stocks only
 
 # --- Soft thresholds (also in risk_rules.md — editable) ---

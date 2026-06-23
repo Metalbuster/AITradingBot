@@ -4,9 +4,9 @@ STEP 1 — Read strategy.md
 Read memory/strategy.md. Note the live_trading flag (true = live account, false = paper account).
 If the file cannot be read, abort immediately and report the error.
 
-STEP 2 — Check weekly trade limit
+STEP 2 — Check daily trade limit
 Read memory/weekly_trade_counter.md.
-If trades_this_week >= 3: log "Weekly trade limit reached (3/3). No new entries.", call /journal with this message, stop.
+If trades_this_week >= 3: log "Daily trade limit reached (3/3). No new entries.", call /journal with this message, stop.
 
 STEP 3 — Check daily halt flag
 Read memory/weekly_trade_counter.md.
@@ -55,4 +55,4 @@ STEP 12 — Journal and push
 Call /journal with full decision: ticker, score, thesis, entry price, stop price, position size, reason chosen over others.
 Commit and push memory/ to GitHub with message: `auto: BUY [TICKER] [N]sh @ $[PRICE] | score:[X] | [date] ET`
 
-After placing one trade: re-check weekly_trade_counter.md. If trades_this_week >= 3, stop evaluating further candidates.
+After placing one trade: re-check weekly_trade_counter.md. If trades_this_week >= 3, stop evaluating further candidates for today.

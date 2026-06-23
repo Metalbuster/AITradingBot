@@ -2,7 +2,7 @@ import logging
 from utils.memory import read, get_flag
 from utils.alpaca_client import get_account
 from config import (
-    MAX_POSITION_PCT, DAILY_LOSS_CAP_PCT, MAX_TRADES_PER_WEEK,
+    MAX_POSITION_PCT, DAILY_LOSS_CAP_PCT, MAX_TRADES_PER_DAY,
     MIN_RESEARCH_SCORE, MIN_VOLUME_MULTIPLIER, MAX_VIX, ALLOW_OPTIONS,
 )
 
@@ -21,10 +21,10 @@ class RiskManager:
         halt = get_flag("weekly_trade_counter.md", "daily_loss_halt")
         return halt and halt.lower() == "true"
 
-    def weekly_trades_remaining(self):
+    def daily_trades_remaining(self):
         val = get_flag("weekly_trade_counter.md", "trades_this_week")
         used = int(val) if val and val.isdigit() else 0
-        return MAX_TRADES_PER_WEEK - used
+        return MAX_TRADES_PER_DAY - used
 
     def portfolio_value(self):
         if not self.account:
@@ -56,8 +56,8 @@ class RiskManager:
         if self.is_halted():
             reasons.append("daily loss halt is active")
 
-        if self.weekly_trades_remaining() <= 0:
-            reasons.append(f"weekly trade limit ({MAX_TRADES_PER_WEEK}) reached")
+        if self.daily_trades_remaining() <= 0:
+            reasons.append(f"daily trade limit ({MAX_TRADES_PER_DAY}) reached")
 
         ok, pnl = self.check_daily_loss()
         if not ok:

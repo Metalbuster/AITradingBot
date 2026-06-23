@@ -5,7 +5,7 @@ from utils.alpaca_client import (
     get_latest_bar, close_position,
 )
 from utils.email_client import send_trade_alert
-from config import STOP_LOSS_DEFAULT_PCT, STOP_LOSS_HIGH_BETA_PCT, ALLOW_OPTIONS
+from config import STOP_LOSS_DEFAULT_PCT, STOP_LOSS_HIGH_BETA_PCT, ALLOW_OPTIONS, MAX_TRADES_PER_DAY
 
 log = logging.getLogger(__name__)
 
@@ -49,7 +49,7 @@ def open_trade(symbol, score, thesis, technical, shares):
     counter_val = memory.get_flag("weekly_trade_counter.md", "trades_this_week")
     used = int(counter_val) if counter_val and counter_val.isdigit() else 0
     memory.set_flag("weekly_trade_counter.md", "trades_this_week", str(used + 1))
-    memory.set_flag("weekly_trade_counter.md", "trades_remaining", str(2 - used))
+    memory.set_flag("weekly_trade_counter.md", "trades_remaining", str(MAX_TRADES_PER_DAY - used - 1))
 
     memory.append(
         "weekly_trade_counter.md",

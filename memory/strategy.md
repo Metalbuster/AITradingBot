@@ -10,7 +10,7 @@ I research using Perplexity AI and report to jankla2010@gmail.com.
    - Set daily_loss_halt = true in weekly_trade_counter.md
    - Send alert email to user
    - Do not place any new trades for the rest of today
-3. WEEKLY TRADE LIMIT: Maximum 3 trades per week (Mon–Fri)
+3. DAILY TRADE LIMIT: Maximum 3 trades per day
    - Check weekly_trade_counter.md before every entry
    - If trades_this_week >= 3, skip entry — do not trade
 4. NO OPTIONS: Only buy/sell common stock (equities). No calls, puts, or derivatives.
@@ -25,7 +25,7 @@ live_trading: false
 - Volume >= 2x 30-day average
 - SPY above 5-day moving average
 - VIX < 28
-- Weekly trade count < 3
+- Daily trade count < 3
 - Daily portfolio loss < 2%
 
 ## Exit Criteria

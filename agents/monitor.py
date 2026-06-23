@@ -3,7 +3,7 @@ import logging
 from utils import memory, github_sync
 from utils.alpaca_client import get_positions, get_account, close_position, get_latest_bar
 from utils.email_client import send_stop_loss_alert, send_halt_alert
-from config import DAILY_LOSS_CAP_PCT, TRAILING_STOP_PCT
+from config import DAILY_LOSS_CAP_PCT, TRAILING_STOP_PCT, MAX_TRADES_PER_DAY
 
 log = logging.getLogger(__name__)
 
@@ -122,8 +122,8 @@ def reset_daily_halt():
         github_sync.push("auto: daily halt reset — new trading day")
 
 
-def reset_weekly_counter():
+def reset_daily_counter():
     memory.set_flag("weekly_trade_counter.md", "trades_this_week", "0")
-    memory.set_flag("weekly_trade_counter.md", "trades_remaining", "3")
-    log.info("[Monitor] Weekly trade counter reset")
-    github_sync.push("auto: weekly trade counter reset — new week")
+    memory.set_flag("weekly_trade_counter.md", "trades_remaining", str(MAX_TRADES_PER_DAY))
+    log.info("[Monitor] Daily trade counter reset")
+    github_sync.push("auto: daily trade counter reset — new trading day")
