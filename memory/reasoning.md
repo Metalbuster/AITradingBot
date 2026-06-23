@@ -171,6 +171,13 @@ daily_loss_halt confirmed false. Reset logged as part of EOD routine. Portfolio 
 EOD report could NOT be sent to jankla2010@gmail.com. Outbound SMTP (ports 465 and 587) is blocked by this remote execution environment's network policy. Full EOD summary is preserved in portfolio_state.md, trade_log.md, and benchmark_tracking.md. User should configure an HTTP-based email service (e.g. SendGrid, Resend, Mailgun) or enable SMTP in environment settings to restore email delivery.
 ---
 
+## 2026-06-23 — Intraday Monitor
+
+**Routine:** position_monitor
+
+No open positions. NVDA (23 shares) was fully closed EOD 2026-06-22 via market sell at ~$207.88 (Order ID: 9317f93a-81f0-4727-bdbf-2f04439647be). Alpaca API confirmed 0 positions, long_market_value $0. Account equity $99,873.35 = last_equity $99,873.35 — daily P&L: $0.00 (0.00%), well below 2% halt threshold. daily_loss_halt remains false. No exits to execute. No actions taken. All clear.
+---
+
 ## 2026-06-23 — Pre-Market Research Run #3
 
 **Tickers Scanned:** 15 (AAPL, MSFT, NVDA, TSLA, AMZN, META, GOOGL, AMD, SMCI, PLTR, SOFI, RIVN, COIN, SPY, QQQ)
