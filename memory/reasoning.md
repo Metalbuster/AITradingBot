@@ -236,3 +236,8 @@ No open positions. Confirmed via Alpaca API (0 positions, long_market_value $0).
 
 Benchmark logged. Portfolio: $99,873.35 (0.00%) | SPY: $731.71 (-1.59%) | Alpha: +1.59%
 ---
+
+## 2026-06-26 ET — Weekly EOD Report Sent
+
+EOD report sent to jankla2010@gmail.com. Subject: Trading Bot — Weekly Summary | 2026-06-26 | Week P&L: -0.13%
+---
