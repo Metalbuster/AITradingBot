@@ -1,23 +1,46 @@
-# Daily Market Context — 2026-06-23
+# Daily Market Context
 
-Generated: 2026-06-23 12:35 UTC
+Last updated: 2026-06-26
 
-## Key Indicators
+---
 
-- **TRADE_OK**: YES
-- **VIX**: 15.00
-- **SPY above 5-day MA**: YES
+## SPY
+- **Price:** ~$733–734
+- **Trend:** Bullish overall; short-term selling pressure near 5-day MA
+- **vs 5-day MA (~$739):** Slightly below — minor sell signal
+- **vs 20-day MA (~$674–688):** Above — buy signal
+- **vs 50-day MA:** Mixed (above EMA ~$663; below SMA ~$742)
+- **MACD:** Positive (4.26) — buy signal
+- **RSI:** 48.43 — Neutral
 
-## Market Context
+## QQQ
+- **Trend:** Bullish, consistent with SPY
+- **Sector:** Tech-heavy; benefiting from AI/risk-on environment
 
-SPY is **above** its 5-day moving average (YES), with a **bullish** current trend [1][3]. The approximate VIX level is **15.00**, which is **below** 28 [4]. **Technology** and **Consumer Discretionary** sectors are leading, while **Utilities** and **Energy** are lagging (based on implied volatility and price action trends) [4]. Overall market bias is **BULLISH** [2][5]. Key macro events today include **Fed speakers** (scheduled for 12 PM UTC) and **SPY earnings** (pre-market data) [4].
+## VIX
+- **Level:** Implied SPY volatility ~16.05% (IV rank 32.18%) — direct VIX not quoted
+- **Interpretation:** Low-to-moderate volatility; no immediate fear signal
+- **Status:** Below 28 threshold — VIX halt rule NOT triggered
 
-TRADE_OK: YES  
-VIX: 15.00  
-SPY_ABOVE_5DMA: YES
+## Top Sector
+- **Technology** — leading rally on AI-driven growth, positive earnings expectations, risk-on sentiment
 
-## Top Candidates Today
+## Macro Events (Next 48 Hours)
+- Possible PCE inflation data release
+- Jobless claims
+- No major scheduled Fed speakers noted
 
-- **META**: 85/100 — STRONG BUY
-- **AMD**: 85/100 — STRONG BUY
-- **SPY**: 85/100 — STRONG BUY
+## Fed Policy
+- Stance: Neutral to slightly dovish
+- Markets pricing stable monetary environment (no imminent hikes)
+
+## Overall Sentiment
+- **Risk-On / Cautiously Bullish**
+- SPY above key medium/long-term MAs; MACD positive; low implied volatility
+- Short-term divergence in technicals adds caution
+
+---
+
+## TRADE_OK: no
+
+**Reason:** Conflicting technical signals (Strong Buy vs Strong Sell divergence across data sources) and short-term selling pressure near the 5-day MA introduce moderate risk. VIX is acceptable (<28) and sentiment is broadly risk-on, but directional clarity is insufficient for new swing entries today. Wait for clearer 5-day MA reclaim or bullish confirmation candle.
