@@ -23,3 +23,41 @@
 1. Add VIX at entry to trade log template
 2. Formalize Perplexity overnight confidence threshold: < 70 = mandatory EOD exit
 3. Consider adding valuation risk flag as a -5 to -10 score modifier in research scoring
+
+---
+
+## Weekly Reflection — Week of 2026-06-22 (Final, logged 2026-06-27)
+
+### Week Stats
+- Trades executed: 1 | Skipped: 1 | Wins: 0 | Losses: 1
+- Win rate: 0% | Net P&L: -$126.63 | Avg loss: -2.58%
+- Portfolio: $99,873.35 (down -0.13% from $100,000.00 baseline)
+- SPY performance this week: -1.59% (Jun 22 $743.54 → Jun 26 $731.71)
+- Alpha vs SPY: +1.46% (bot lost -0.13% vs SPY's -1.59%; defensive filters outperformed)
+
+### Signals That Worked
+- **SPY 5-day MA gate blocked a bad day (Jun 23)**: SPY was 1.8% below its MA. All candidates failed volume (best: PLTR 1.28x vs required 2x). Skipping saved an unknown but likely negative P&L in a market-down session. This was the single most valuable filter this week.
+- **Perplexity overnight confidence (68 < 70) triggered correct EOD exit**: The exit signal fired as designed. Holding NVDA overnight into Jun 23 (a down market day) would likely have produced a larger loss.
+- **No hard rules broken**: Daily loss cap, trade limit, and position sizing all held. NVDA loss was -2.58% on position size (within the 5% max position cap).
+
+### Signals That Failed
+- **Research score 92 on NVDA did not predict same-day gain**: Score reflects thesis strength, not intraday momentum. A high score is necessary but not sufficient — broad market context must dominate.
+- **No volume confirmation on entry day**: Entry did not verify whether NVDA had 2x volume at open vs. the 2x threshold required. The trade log entry lacks intraday volume at time of entry. Needs to be logged.
+- **"Valuation risk high" flag was noted but not acted upon**: This should reduce the effective score by 5-10 points.
+
+### VIX Conditions
+- VIX was not recorded in trade log for Jun 22 entry — this remains an open gap.
+- No VIX-based exit was triggered; force-close was thesis-confidence-driven.
+- Market weakness Jun 23 (SPY -1.8% vs MA) correlated with typical high-VIX environment. Suspected VIX was elevated (20-25 range) but unconfirmed.
+
+### Emerging Patterns (Week 1 of 2 — very low sample, low confidence)
+- **Defensive alpha via filters**: In a down week for SPY (-1.59%), the bot's conservative filter set produced +1.46% alpha purely by not trading. This pattern will matter in sustained downtrends.
+- **Inaugural week bottleneck is data quality, not signal quality**: Missing VIX at entry, missing intraday volume at entry, missing overnight hold decision reasoning — these gaps limit post-trade analysis.
+- **Single trade, single loss = insufficient to infer signal failure**: NVDA loss could be random; sector-momentum signal needs 5+ trades before drawing conclusions.
+
+### Open Action Items (carry forward to Week 2)
+1. Add VIX at entry to trade log template
+2. Add intraday volume multiple at time of entry to trade log
+3. Formalize overnight confidence threshold: Perplexity confidence < 70 = mandatory EOD close
+4. Add valuation risk modifier: flag reduces research score by 7 points
+5. Confirm SPY MA calculation uses close prices, not intraday
