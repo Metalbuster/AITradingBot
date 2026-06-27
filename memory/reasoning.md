@@ -254,3 +254,7 @@ Benchmark logged. Portfolio: $99,873.35 (0.00%) | SPY: $732.14 (+0.06%) | Alpha:
 
 No open positions. Confirmed via Alpaca API (0 positions, long_market_value $0). Account equity $99,873.35 = last_equity $99,873.35 — daily P&L: $0.00 (0.00%), well below 2% halt threshold ($1,997.47). daily_loss_halt flag: false. No stop-loss, take-profit, or exit checks required. No actions taken. All clear.
 ---
+
+## 2026-06-27 01:15 ET
+EOD report sent to jankla2010@gmail.com. Subject: Trading Bot -- EOD Summary 2026-06-27 | Saturday Reset | Week P&L: -0.13%
+---
