@@ -305,3 +305,7 @@ Research complete. 13 tickers scanned. Top candidates: AMD(77), TSLA(71), GOOGL(
 ## 2026-06-30 09:30 ET
 No trade placed on 2026-06-30 (market open session). Reason: SPY below 5-day moving average (~$729 vs MA ~$739-$740) — entry criterion NOT MET. VIX at 17.56 is below 28 (criterion met), but both conditions must be true. Top candidates AMD (77/100) and TSLA (71/100) are pre-staged and remain eligible if SPY reclaims 5-day MA. TRADE_OK: no per daily_context.md and research_cache.md. No orders submitted to Alpaca paper account. Weekly trade counter unchanged at 0/3.
 ---
+
+## 2026-06-30 09:35 ET — Market Open Routine (Scheduled Task)
+No trade placed. Market open routine ran all checks: daily_loss_halt=false ✅, trades_this_week=0/3 ✅. Research candidates: AMD 77/100, TSLA 71/100 — both above 70 threshold. No open positions held. Market context check (Step 8) failed: SPY ~$729 is ~$10 below 5-day MA ~$739-$740. TRADE_OK=no. VIX=17.56 (below 28 ✅) but SPY criterion not met — both must be true per strategy. No order submitted to Alpaca paper account. AMD and TSLA remain pre-staged for entry if SPY reclaims its 5-day MA.
+---
