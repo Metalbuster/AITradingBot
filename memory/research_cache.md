@@ -1,156 +1,149 @@
 # Research Cache
 
-Last updated: 2026-06-29 (pre-market)
-Tickers scanned: 13 equities (SPY, QQQ used for market context only)
-
----
-
-## AMD — SCORE: 94/100
-- **News/Catalysts (18/20):** Up ~1.7% pre-market; chip sector rally driven by Intel BofA upgrade to Buy — positive sentiment ripple across semiconductors.
-- **Analyst (15/20):** No AMD-specific upgrades last 7 days, but Intel's BofA upgrade signals broader chip-sector re-rating; cautiously optimistic.
-- **Volume (12/20):** 47.23M vs 58.31M 65-day avg (81% of average) — slightly below, not elevated.
-- **Moving Averages (19/20):** Above 200-day MA and near 52-week top (~$520); 50-day MA assumed below current price — bullish structure.
-- **RSI (10/10):** Neutral 40–60 range — no overbought/oversold pressure.
-- **Sector (10/10):** Chip stocks rose collectively: MU +2.1%, NVDA +0.8%, INTC +4% — strong sector-wide momentum.
-
----
-
-## RIVN — SCORE: 82/100
-- **News/Catalysts (20/20):** Deutsche Bank upgraded to Buy ($16→$23 target); UBS shifted Sell→Neutral ($15→$16). First-ever positive gross margin on cash basis in Q4. Stock surged 20%+ on Friday.
-- **Analyst (20/20):** Two major upgrades in 7 days. Consensus price target $17.56.
-- **Volume (18/20):** Pre-market volume 152K vs 405K 30-day avg (below), but total intraday 42.59M vs 28.75M avg — significant news-driven surge.
-- **Moving Averages (18/20):** Price ~$15.63; above intraday low and trending up. Assumed above key MAs given surge; lacks explicit confirmation.
-- **RSI (7/10):** Reddit notes "massively overbought"; RSI estimated 60–70 mildly overbought range.
-- **Sector (9/10):** Auto/EV sector showing strength on Rivian earnings and analyst upgrades.
-
----
-
-## AMZN — SCORE: 77/100
-- **News/Catalysts (14/20):** Q1 2026 earnings beat (revenue $181.5B +17%, AWS +28%); mild near-term softness as market digests gains. Pre-market +2.5%.
-- **Analyst (18/20):** 97.2% of 72 analysts rate Buy; consensus target $312.52 vs ~$231.90 current — massive upside implied.
-- **Volume (20/20):** 248.37M vs 77.39M avg — 3x+ average, significantly elevated.
-- **Moving Averages (12/20):** Above 200-day SMA (~$229) but below 50-day SMA (~$237) — mixed; not fully bullish.
-- **RSI (7/10):** Likely neutral 40–50 given earnings digestion and mild pullback; not explicitly confirmed.
-- **Sector (6/10):** "Mag 7" struggling to get traction in 2026 broadly; AMZN showing individual strength (+19.5% YTD).
-
----
-
-## NVDA — SCORE: 75/100
-- **News/Catalysts (18/20):** China government instructing tech firms to order H200 chips; $80B additional buyback authorized; quarterly dividend raised 25-fold.
-- **Analyst (17/20):** Morningstar raised fair value to $280/share; 4-star territory with 25% discount to intrinsic value. Very bullish long-term.
-- **Volume (6/20):** Pre-market 3.1M shares vs 5.3M 30-day avg — significantly below average; quiet pre-market session.
-- **Moving Averages (18/20):** Trending toward $4T market cap; S&P 500 and Nasdaq at fresh record highs — strongly implied above both MAs.
-- **RSI (7/10):** Slight pullback from highs; estimated RSI 60–70 (mildly overbought).
-- **Sector (9/10):** Huge AI/semiconductor momentum; Nasdaq hitting fresh record highs. Note: NVDA slightly underperforming broader tech amid rate concerns.
-
----
-
-## GOOGL — SCORE: 75/100
-- **News/Catalysts (18/20):** Strong Q4 earnings beat; projected $180B capex rise for 2026 for AI infrastructure. Pre-market +1.44%.
-- **Analyst (20/20):** 54 analysts — majority Strong Buy/Moderate Buy; mean target $433.63 (+25.6% upside). Jefferies, BofA maintaining Buy.
-- **Volume (10/20):** Pre-market 295K vs 485K 30-day avg — below average. Intraday 82.48M vs 28.49M avg is elevated but pre-market is thin.
-- **Moving Averages (19/20):** Up 91.45% YoY; near 52-week high $408.61; well above 200-day MA. Inferred above 50-day given strong uptrend.
-- **RSI (5/10):** Near 52-week high; RSI likely above 70 (overbought) given 91.45% annual gain.
-- **Sector (3/10):** Nasdaq fell 0.5% today; global tech sell-off noted — sector headwind.
-
----
-
-## AAPL — SCORE: 67/100
-- **News/Catalysts (14/20):** WWDC kickoff with overhauled Siri/AI capabilities is bullish. Recent Mac/iPad price hikes caused worst single session in over a year — bearish retail sentiment (Stocktwits bearish).
-- **Analyst (11/20):** Hold rating (2/5) with $300 target (upside from ~$283); no recent upgrades; negative reaction to Thursday's price hike.
-- **Volume (12/20):** Daily avg 50.47M; pre-market only 77.94K — low pre-market volume, daily near average.
-- **Moving Averages (16/20):** Closed $283.78 (+3.14% on June 26); near 52-week high; above 200-day MA (~$169 low); likely above 50-day given rebound from $275.
-- **RSI (8/10):** 5% YTD decline + "slam" session → RSI likely oversold 30–40 range.
-- **Sector (6/10):** Tech sector underperformer in AI landscape vs Alphabet; hardware pricing pressure.
-
----
-
-## META — SCORE: 63/100
-- **News/Catalysts (12/20):** No major corporate catalysts; prediction markets 92% probability price closes above $520, 91% to hit $560. Bullish candle close at $550.25 on June 26.
-- **Analyst (10/20):** No specific upgrades/downgrades last 7 days in sources; sentiment inferred positive from prediction market data.
-- **Volume (10/20):** Prior day volume 16.19M; pre-market 32.83K — 30-day average not confirmed; neutral.
-- **Moving Averages (14/20):** Pre-market $557.14; above support $521.31; however weekly timeframe shows downtrend with lower lows.
-- **RSI (7/10):** Approaching resistance at $557.46; estimated RSI 60–70 (mildly overbought).
-- **Sector (10/10):** High prediction market confidence; strong short-term tech momentum implied.
-
----
-
-## MSFT — SCORE: 62/100
-- **News/Catalysts (16/20):** US-Iran peace deal sparked broad tech rally; MSFT up ~1.92% pre-market. AI valuation discount (25x forward vs 5-yr median) narrowing.
-- **Analyst (17/20):** Consensus "Moderate Buy"; price target $560.86 vs ~$373 current; Mizuho raised target $315→$325; some projecting $1,000+.
-- **Volume (12/20):** Pre-market more active due to news catalyst; specific 30-day comparison not quantified.
-- **Moving Averages (4/20):** Confirmed below 200-day SMA (~$462) by ~12%; below 20-day SMA by ~5%; confirmed death cross (50-day below 200-day) — bearish.
-- **RSI (5/10):** Repair phase; MACD below signal line; neutral with weak momentum — estimated RSI neutral.
-- **Sector (8/10):** AI-related tech in "massive rally" on peace deal; broad AI sentiment improving short-term.
-
----
-
-## PLTR — SCORE: 62/100
-- **News/Catalysts (18/20):** Q1 earnings imminent: revenue expected +74% to $1.54B, profit +115% to $0.28/share. Strong pre-earnings catalyst; shares up ~2% pre-market.
-- **Analyst (17/20):** 18 of 31 analysts Buy+, 11 Hold, 2 Sell; avg target $182.99 (27% upside). Strong bullish majority.
-- **Volume (10/20):** Pre-market 472.47K; daily 95% of 65-day avg (91.09M vs 95.9M) — slightly below average.
-- **Moving Averages (4/20):** Down 36% in 2026; hit 52-week low on Thursday; below 50-day and 200-day MAs — confirmed bearish structure.
-- **RSI (8/10):** Near 52-week low; RSI estimated oversold 30–40 range.
-- **Sector (5/10):** Software sector under pressure; PLTR dropped 36% in 2026 despite AI spending growth.
-
----
-
-## TSLA — SCORE: 61/100
-- **News/Catalysts (14/20):** Price target hikes noted; mixed — capex programs and margin compression are headwinds; robotaxi debate ongoing.
-- **Analyst (16/20):** 47 analysts; mean consensus "Outperform"; avg 12-month target $419.94 vs ~$396.25 — meaningful upside.
-- **Volume (10/20):** 10-day avg volume 158.71M; typical liquidity but no pre-market spike confirmed for June 29.
-- **Moving Averages (8/20):** Price near 50-day SMA (~$395) and 100-day SMA (~$403); explicitly "below short- and medium-term MA cluster" — fragmented, not bullish.
-- **RSI (8/10):** 14-day RSI 40.36 — just above oversold threshold; soft momentum.
-- **Sector (5/10):** ADX 17.54 — weak directional trend; potential bearish continuation if close below $364.
-
----
-
-## SOFI — SCORE: 61/100
-- **News/Catalysts (18/20):** CEO Anthony Noto bought 13,888 shares (~$251K open-market) — strong insider confidence signal. Stock +1.9% pre-market.
-- **Analyst (12/20):** Consensus "Hold"; avg target $22.56 vs ~$17.69 current (+27% upside). No recent upgrades. Legal investigation by Block & Leviton weighing.
-- **Volume (14/20):** Moderate activity; insider buy driving attention; not explosively elevated.
-- **Moving Averages (4/20):** ~22% below 200-day SMA ($22.70); death cross in March (50-day below 200-day); confirmed bearish. Key resistance $19.00.
-- **RSI (8/10):** MACD above signal line (easing); RSI estimated oversold 30–40 given 22% discount from 200-day.
-- **Sector (5/10):** FinTech sector facing weakening loan demand headwinds; Muddy Waters short-seller scrutiny; neutral-to-negative.
-
----
-
-## COIN — SCORE: 56/100
-- **News/Catalysts (10/20):** No major company-specific catalysts last 48h; Bitcoin consolidating $23,800–$24,300 — indirect drag.
-- **Analyst (18/20):** 34 analysts rate Buy; avg 12-month target $229.74 vs ~$150.44 (+54% upside) — very bullish long-term.
-- **Volume (10/20):** No explicit volume data vs 30-day avg; general market volatility high — neutral assumed.
-- **Moving Averages (4/20):** Below 200-day SMA; near bottom of 52-week range — confirmed bearish technical posture.
-- **RSI (8/10):** Near 52-week bottom; RSI estimated oversold 30–40 range.
-- **Sector (6/10):** Crypto sector in consolidation; Bitcoin at resistance $24,300 — not strongly trending up.
-
----
-
-## SMCI — SCORE: 36/100
-- **News/Catalysts (2/20):** $7B equity offering announced (dilutive); shares fell 8.49% pre-market. Includes $5B underwritten + $2B ATM offering starting July.
-- **Analyst (8/20):** Consensus Hold; avg target $32.70 (24 analysts). GF Securities upgraded to Buy ($48 target) — lone bright spot.
-- **Volume (12/20):** Pre-market 965,810 — elevated due to news-driven selling.
-- **Moving Averages (3/20):** 2.2% below 50-day MA ($32.10); 12.5% below 200-day MA ($35.88) — confirmed bearish.
-- **RSI (5/10):** Strong Sell signal; RSI likely below 30 (deeply oversold) from dilution shock.
-- **Sector (6/10):** AI server demand strong but SMCI-specific caution; underperforming AI peers.
+Last updated: 2026-06-30 (pre-market, ~1:30 PM UTC)
+Tickers scanned: 13 equities (SPY/QQQ used for market context only)
+Data source: Perplexity AI (sonar model)
 
 ---
 
 ## Score Summary (Equities Only)
-| Ticker | Score | Trade-Eligible (≥70)? |
-|--------|-------|----------------------|
-| AMD    | 94/100 | YES |
-| RIVN   | 82/100 | YES |
-| AMZN   | 77/100 | YES |
-| NVDA   | 75/100 | YES |
-| GOOGL  | 75/100 | YES |
-| AAPL   | 67/100 | no |
-| META   | 63/100 | no |
-| MSFT   | 62/100 | no |
-| PLTR   | 62/100 | no |
-| TSLA   | 61/100 | no |
-| SOFI   | 61/100 | no |
-| COIN   | 56/100 | no |
-| SMCI   | 36/100 | no |
 
-**Top 3 candidates:** AMD(94), RIVN(82), AMZN(77)
-**TRADE_OK: no** — VIX unconfirmed below 28; SPY near/below 5-day MA. Verify at market open before placing any trades.
+| Ticker | Score | Trade-Eligible (>=70)? |
+|--------|-------|------------------------|
+| AMD    | 77/100 | YES |
+| TSLA   | 71/100 | YES |
+| GOOGL  | 69/100 | no (1pt below threshold) |
+| META   | 60/100 | no |
+| NVDA   | 54/100 | no |
+| RIVN   | 52/100 | no |
+| AMZN   | 49/100 | no |
+| SOFI   | 47/100 | no |
+| MSFT   | 32/100 | no |
+| PLTR   | 30/100 | no |
+| AAPL   | 27/100 | no |
+| SMCI   | 12/100 | no |
+| COIN   | 9/100  | no |
+
+**Top 3 candidates:** AMD(77), TSLA(71), GOOGL(69 — watch)
+**TRADE_OK: no** — SPY below 5-day MA (~729 vs MA ~740). See daily_context.md.
+
+---
+
+## Detailed Scores
+
+### AMD (77/100) -- TOP CANDIDATE
+- **News (18/20):** Q2 revenue $9.9B-$10.3B, data center segment +51% YoY; stock +12% post-earnings; Wells Fargo raised PT to $615, Fitzgerald to $700
+- **Analyst (15/15):** 58/58 Buy ratings; TipRanks bullish consensus; no downgrades
+- **Volume (12/20):** Elevated post-earnings VWAP; above-average activity confirmed, exact 2x ratio not confirmed
+- **Price vs MA (20/20):** $540.25; +264% YoY, +62% YTD; clearly above both 50-day and 200-day MAs
+- **RSI (5/10):** ~56 (neutral, room to run)
+- **Sector (14/15):** Strong uptrend; price above 20d and 50d EMAs; sector leadership in AI GPUs
+- **Thesis:** Data center AI demand cycle intact; post-earnings momentum and unanimous analyst consensus make this the top short-term candidate — hold for TRADE_OK=yes
+
+### TSLA (71/100) -- TOP CANDIDATE
+- **News (12/20):** Q2 delivery concerns minor; XAI/Elon AI comments bullish read-through; no major negative catalyst
+- **Analyst (8/15):** Mild upward momentum; no specific upgrades/downgrades in window
+- **Volume (18/20):** 123.81M vs 65-day avg 94.06M = 132% surge; strong bullish accumulation signal
+- **Price vs MA (14/20):** Bounced off 200-day MA; above 200d, uncertain vs 50d; partial credit
+- **RSI (9/10):** RSI 52 (neutral, ideal entry zone)
+- **Sector (10/15):** 80% institutional option order value bullish; hardware/semiconductor crossover interest
+- **Thesis:** Volume-confirmed 200-day MA bounce with institutional backing; strong setup pending TRADE_OK=yes
+
+### GOOGL (69/100) -- Watch, 1pt below threshold
+- **News (17/20):** Added to Dow Jones (index-buying catalyst); Google Cloud +63% YoY (fastest since 2019); FactSet AI partnership announced
+- **Analyst (12/15):** 73% Buy ratings; FY2026 earnings expectations upgraded
+- **Volume (19/20):** 48.67M vs 65-day avg 29.33M = 166% increase (well above 2x) -- very bullish
+- **Price vs MA (19/20):** $353.65, near 52-week high $408.61; above both major MAs
+- **RSI (5/10):** RSI 59.15 (neutral-bullish)
+- **Sector (14/15):** TradingView Strong Buy on 1-week and 1-month; all EMAs on Buy
+- **Thesis:** Dow inclusion + cloud acceleration are strong multi-day catalysts; 1pt below threshold -- reassess tomorrow
+
+### META (60/100)
+- **News (18/20):** Q4 earnings beat significantly; AI ad revenue +33% YoY; but equity offering -5.4% in one session
+- **Analyst (13/15):** Strong Buy consensus (34 analysts); avg PT $830.15; no recent downgrades
+- **Volume (12/20):** 15.01M vs 30-day avg 17.16M -- below average, subdued
+- **Price vs MA (10/20):** Above 50d MA but below 200d MA (peak was $796.25); partial credit
+- **RSI (4/10):** RSI ~37 (oversold territory -- could bounce but not confirming direction)
+- **Sector (9/15):** AI infrastructure costs raising concerns; -14% from peak; sector under macro pressure
+- **Thesis:** Oversold bounce candidate; monitor for RSI recovery above 40 before entry
+
+### NVDA (54/100)
+- **News (14/20):** Jensen Huang called selloff a buying opportunity; BioNeMo Agent Toolkit launch; AI buildout thesis intact
+- **Analyst (6/15):** No explicit upgrades/downgrades last 72h; long-term bullish but near-term neutral
+- **Volume (0/20):** 763K vs 155M daily avg -- volume near zero vs average; red flag
+- **Price vs MA (8/20):** $196.03; YTD -16.32%, down 18.5% from peak; likely below both MAs
+- **RSI (5/10):** RSI ~45.3 (neutral but trending down)
+- **Sector (4/15):** RSC 97.35 underperformer vs peers; Strong Sell on 10 of 12 MA signals
+- **Thesis:** Volume anomaly is disqualifying -- do not enter without volume confirmation
+
+### RIVN (52/100)
+- **News (18/20):** Needham reiterated Buy ($23 PT) citing R2 cost reductions and launch momentum
+- **Analyst (11/15):** 19 analysts; 6 bullish, 10 neutral, 3 bearish; cautiously optimistic
+- **Volume (2/20):** 9.51K current vs 32.32M avg -- near-zero participation; not confirmable
+- **Price vs MA (10/20):** Above 200d MA; likely below 50d MA; partial credit
+- **RSI (6/10):** Estimated 50-60 range (moderate bullish, not extreme)
+- **Sector (5/10):** EV sector mixed; data on Needham rating conflicting across sources
+- **Thesis:** Positive news but volume non-existent -- wait for volume confirmation
+
+### AMZN (49/100)
+- **News (12/20):** Post-earnings recovery +4% to ~$244 after -17% drop on $200B capex commitment; 95% analysts still Buy
+- **Analyst (10/15):** Near-unanimous analyst Buy consensus; but no fresh upgrades in 48h window
+- **Volume (0/20):** 77.62M vs 30-day avg 80.03M -- below average; no volume confirmation
+- **Price vs MA (12/20):** Above 200d MA (~$232) but below 50d MA (~$256); neutral-bearish
+- **RSI (6/10):** RSI 60.92 (neutral)
+- **Sector (9/15):** Technical indicators lean Strong Buy but price action shows overhead resistance
+- **Thesis:** Earnings shock absorbed; attractive long-term but short-term resistance at 50d MA
+
+### SOFI (47/100)
+- **News (4/20):** $1.5B stock offering triggered -4.5% selloff; dilution overhang
+- **Analyst (5/15):** No specific upgrades/downgrades; ratings temporarily unavailable on major platforms
+- **Volume (3/20):** Elevated on selloff day but bearish distribution, not accumulation
+- **Price vs MA (16/20):** Conflicting data -- one source shows price above key MAs near $17 pivot; another says below. Using partial credit.
+- **RSI (7/10):** Up 3.18% on recovery day; RSI moderate/neutral range estimated
+- **Sector (12/15):** Financial Services facing macro headwinds but loan platform growth resilient
+- **Thesis:** Dilution overhang clears over time; wait for offering to be absorbed before entry
+
+### MSFT (32/100)
+- **News (6/20):** 17% decline in June -- worst month since 2000; AI spending skepticism; Q3 earnings beat ($82.9B revenue) not enough to offset sentiment
+- **Analyst (2/15):** Consensus PT $561 (52% upside) but daily signal Strong Sell; broad caution
+- **Volume (2/20):** Low pre-market volume; passive decline not bullish
+- **Price vs MA (0/20):** $368.57 near 52-week low $349.20; below both 50d and 200d MAs; death cross
+- **RSI (5/10):** RSI 38.93 (bearish, approaching oversold)
+- **Sector (6/15):** AI spending skepticism dominating Mag 7 narrative
+- **Thesis:** Avoid -- no technical support, worst June since 2000
+
+### PLTR (30/100)
+- **News (2/20):** Insider selling by director; Michael Burry reiterated bearish stance; geopolitical headwinds in UK
+- **Analyst (10/15):** Avg PT $186.89 (34 analysts, 62% Buy); no recent upgrades/downgrades
+- **Volume (0/20):** No volume confirmation of 2x or more
+- **Price vs MA (0/20):** No explicit confirmation of being above 50d or 200d MA at $117.01
+- **RSI (8/10):** RSI 59.63 (neutral -- one bright spot)
+- **Sector (9/15):** Composite Rating 99, RS Rating 99; top of enterprise software sector by long-term metrics
+- **Thesis:** Great company, bad near-term setup -- insider selling + no volume confirmation = pass
+
+### AAPL (27/100)
+- **News (8/20):** Mac/iPad/accessory price hikes 15-25% due to memory shortages; iPhone unchanged; margin pressure concern; China demand risk
+- **Analyst (6/15):** Avg PT $315.09 (63% Buy, 30.8% Hold); no recent upgrades
+- **Volume (0/20):** 58.54M vs 50-day avg 50.47M = 1.16x; not bullish (need 2x)
+- **Price vs MA (0/20):** $281.74; Strong Sell signal; -5.3% weekly, -9.69% monthly; below both MAs confirmed
+- **RSI (5/10):** RSI ~41 (bearish but not fully oversold; outside preferred range per original scoring)
+- **Sector (8/15):** Tech sector flat; hardware pricing pressure; WWDC AI features as potential recovery catalyst
+- **Thesis:** Avoid -- price hikes risking demand destruction; below both MAs; no technical support
+
+### SMCI (12/100) -- DO NOT TRADE
+- **News (0/20):** Allegation: illegal export of AI server technology to China; regulatory scrutiny over Nvidia chip smuggling; stock -27% pre-market
+- **Analyst (0/15):** Targets in mid-$30s; 57% of Robinhood ratings Sell; bearish consensus
+- **Volume (0/20):** 88.87M vs 65.86M avg = 1.35x; below 2x threshold; elevated selling pressure
+- **Price vs MA (1/20):** Trading near 24h low ($28.13); far below all moving averages
+- **RSI (1/10):** Implied deeply oversold (<30) from -27% drop; no bounce confirmation
+- **Sector (2/15):** Information Technology sector positive but SMCI-specific regulatory risk dominates
+- **Thesis:** AVOID -- serious unresolved allegation; high binary event risk; do not trade until allegations resolved
+
+### COIN (9/100) -- AVOID
+- **News (5/20):** Baird new bearish pick citing weak volumes; -19% week; worst S&P 500 performer; revenue outlook $6.5B missed $7.32B estimate
+- **Analyst (0/15):** Baird downgrade; no offsetting upgrades; David Koning cited delayed US crypto legislation
+- **Volume (0/20):** 47,883 shares on June 30 -- extremely low; confirms weak volume thesis
+- **Price vs MA (0/20):** $149.19; -33% in 2026; below both 50d and 200d MAs
+- **RSI (2/10):** Implied oversold from -33% YTD; outside preferred range
+- **Sector (2/15):** Crypto consolidation; US legislation delayed; no near-term catalyst
+- **Thesis:** Avoid -- analyst downgrade, revenue miss, and low volume confirm bearish thesis
