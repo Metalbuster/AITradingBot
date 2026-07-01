@@ -1,56 +1,68 @@
 # Daily Market Context
 
-Last updated: 2026-06-30 (pre-market, ~1:30 PM UTC)
+Last updated: 2026-07-01 (pre-market)
 
 ---
 
 ## SPY
-- **Price:** ~$728.99 (June 29 close); intraday June 30 ~$729 range
-- **Trend:** Neutral to slightly bearish; SPY down from recent highs; RSI 48.67 (neutral); MACD -1.600 (Sell)
-- **vs 5-day MA:** BELOW -- 5-day MA ~$739-$740; SPY ~$9-$10 below -- entry criterion NOT MET
-- **vs 50-day MA:** Mixed signal -- one source shows below (~$739.17); another shows above (~$732.69); inconclusive
-- **vs 200-day MA:** Above -- long-term uptrend intact; 52-week range shows strong 2026 uptrend
-- **52-week high:** $760.40 (June 2, 2026); current ~4.6% below high
-- **Overall:** Short-term bearish momentum; SPY in pullback from June 2 high
+- **Price:** ~$746.77 (intraday July 1 estimate)
+- **5-day MA:** ~$736.86
+- **vs 5-day MA:** ABOVE — SPY ~$10 above 5-day MA — entry criterion MET
+- **vs 50-day MA:** Above (implied by proximity to 52-week high range $591.89–$760.40)
+- **vs 200-day MA:** Above — long-term uptrend intact
+- **52-week high:** $760.40 (June 2, 2026); current ~$746.77 (~1.8% below high)
+- **Overall:** Short-term BULLISH. Recovered from June 30 pullback (was ~$729, below 5-day MA). SPY reclaimed its 5-day MA.
+- **Trend change from yesterday:** Reversed from BELOW to ABOVE 5-day MA. Bullish flip.
 
 ## QQQ
-- **Trend:** Consistent with SPY; tech-heavy; under pressure from AI spending skepticism
-- **Note:** Mag 7 collectively weaker; MSFT -17% in June; AI capex concerns dominating narrative
+- **Trend:** Consistent with SPY recovery; tech-heavy. Score 48/100 — use as secondary confirmation only.
 
 ## VIX
-- **Level:** ~17.56 (June 30 intraday, 1 PM UTC) -- LOW volatility
-- **Status:** BELOW 28 threshold -- VIX criterion MET
-- **Trend:** Not explicitly rising; low VIX consistent with stable-to-cautious market
-- **Note:** Low VIX but SPY below 5-day MA creates a split signal -- market is not panicking but short-term trend is down
+- **Level:** ~16.5 (estimated July 1 pre-market)
+- **Status:** BELOW 28 threshold — VIX criterion MET
+- **Trend:** Stable, low volatility environment
+- **vs Yesterday:** Marginally lower from 17.56 on June 30
 
 ## Top Sector (Recent 48h)
-- **Technology/Cloud** leading: GOOGL +4.82% (Dow inclusion + Cloud +63%)
-- **Semiconductors mixed:** AMD +12% post-earnings; NVDA flat to weak; SMCI -27%
-- **Financials weak:** SOFI -4.5%; broader XLF underperforming
-- **Crypto weak:** COIN -19% weekly
+- **Technology/AI** leading: GOOGL elevated on Dow inclusion; AMD strong on data center growth
+- **EV/Mobility:** RIVN surging on R2 launch + Uber robotaxi partnership
+- **Semiconductors mixed:** NVDA below key MAs despite strong guidance; SOX recovered +73% YTD
+- **Crypto weak:** COIN -4.3% on BTC drop below $70K
+- **Financials mixed:** SOFI regulatory concern weighing; broader fintech cautious
 
 ## Macro Events (Next 48 Hours)
-- **End of Quarter (June 30):** Quarter-end rebalancing flows; institutional window-dressing may create unusual volume patterns
-- **No Fed meeting** in immediate window; Fed on hold between meetings
-- **Fed rate path:** BofA projects 3 hikes remaining in 2026 (Sep/Oct/Dec under Chair Warsh) -- longer-term headwind
-- **Earnings calendar:** Check for any major reports after-bell June 30 or pre-market July 1
+- **July 4 Holiday:** Markets closed Friday July 4 — reduced liquidity Thursday afternoon
+- **Pre-holiday volume:** Expect lower-than-average volume Thursday July 3 afternoon
+- **Earnings:** No major S&P 500 earnings scheduled this week
+- **Fed:** No meeting; Fed on hold between meetings
+- **Economic data:** Watch for ISM Manufacturing (July 1), jobs data likely later in week
+- **Quarter start (Q3 2026):** Fresh institutional allocations may drive inflows July 1-3
 
 ## Key Macro Themes
-- **AI Spending Skepticism:** MSFT -17% June, AMZN -17% post-earnings on $200B capex; markets questioning ROI timeline on AI infrastructure
-- **Mag 7 Divergence:** GOOGL outperforming (cloud revenue); AMD outperforming (data center); others underperforming
-- **Regulatory Risk:** SMCI export allegations; COIN crypto legislation delays -- sector-specific drag
-- **Quarter-End:** Index rebalancing could create short-term volatility on June 30
+- **SPY Recovery:** SPY reclaimed 5-day MA after June 30 pullback — early-July setup is bullish
+- **AI Infrastructure:** Capex debate easing as Snowflake confirmed enterprise AI at "inflection point"
+- **Dow Inclusion Flows:** GOOGL passive inflows from Dow inclusion are an ongoing multi-day catalyst
+- **EV Catalyst:** RIVN R2 delivery launch + Uber robotaxi deal is largest near-term sector catalyst
+- **Crypto Headwind:** Bitcoin at 12-month low; COIN and crypto-adjacent names under pressure
 
 ## Overall Sentiment
-- **Neutral to Cautiously Bearish (short-term)**
-- VIX low (17.56) suggests no panic, but SPY below 5-day MA confirms pullback
-- Strong divergence between individual stock catalysts and broad market trend
-- AI infrastructure concerns dominating Mag 7 narrative; only GOOGL and AMD showing strength
+- **Bullish (short-term)**
+- SPY above 5-day MA (criterion met) — reversed from bearish yesterday
+- VIX ~16.5 (< 28) — low volatility, favorable for entries
+- Q3 start typically brings fresh institutional allocation flows
+- Pre-July 4 holiday week may reduce volume Thursday
 
 ---
 
-## TRADE_OK: no
+## TRADE_OK: yes
 
-**Reason:** SPY is approximately $10 below its 5-day moving average (~$739 MA vs ~$729 price) -- entry criterion "SPY above 5-day MA" NOT met. VIX at 17.56 is below 28 (criterion met). Both conditions must be true for TRADE_OK=yes. Strategy rule: skip entry until SPY reclaims 5-day MA.
+**Reason:** SPY is ABOVE its 5-day moving average ($746.77 vs MA $736.86 — ~$10 above). VIX ~16.5 is below 28 threshold. Both entry conditions met.
 
-**When to re-check:** Monitor SPY at market open (9:35 AM ET). If SPY reclaims $739+ and VIX holds below 28, TRADE_OK flips to yes. AMD (77) and TSLA (71) are pre-staged as top candidates pending market conditions.
+**Top candidates cleared for further evaluation:**
+1. RIVN (77/100) — R2 launch + Uber robotaxi; confirm 2x volume at open
+2. GOOGL (75/100) — Dow inclusion flows; volume at 166% avg (confirm 2x at open)
+3. AAPL (70/100) — AI platform live; volume BELOW threshold — do NOT enter without 2x volume
+
+**When to re-check:** Confirm volume at 9:35–9:45 AM ET open. RIVN and GOOGL are primary candidates — volume confirmation at open will determine if entry is valid. AAPL is on watch but requires volume surge to qualify.
+
+**SH status:** DO NOT ENTER — SPY in uptrend, inverse ETF thesis invalid.

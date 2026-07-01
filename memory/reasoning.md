@@ -334,3 +334,7 @@ Benchmark logged. Portfolio: $99,873.35 (0.00%) | SPY: $746.79 (+0.78%) | Alpha:
 ## 2026-07-01 EOD ET
 EOD report sent to jankla2010@gmail.com. Subject: Trading Bot — EOD Summary 2026-07-01 | P&L: $0.00 (0.00%)
 ---
+
+## 2026-07-01 pre-market ET
+Research complete. 16 tickers scanned (15 equities + SH inverse ETF). Top candidates: RIVN(77), GOOGL(75), AAPL(70). Market TRADE_OK=yes — SPY reclaimed 5-day MA ($746.77 vs MA $736.86), VIX ~16.5. SH not applicable (SPY in uptrend). RIVN and GOOGL are primary watch targets pending volume confirmation at open. Notable score changes from yesterday: RIVN 52→77 (R2 launch + Uber robotaxi deal), GOOGL 69→75 (Dow inclusion inflows), TSLA 71→57 (weakening catalyst set), COIN 9→56 (regulatory backdrop improvement).
+---
