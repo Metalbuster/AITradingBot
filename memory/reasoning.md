@@ -362,3 +362,7 @@ Benchmark logged. Portfolio: $99,873.35 (0.00%) | SPY: $746.26 (-0.07%) | Alpha:
 ## [2026-07-02 pre-market ET]
 Research complete. 15 tickers scanned + SH. Top candidates: COIN(84), AMD(78), NVDA(76). Market TRADE_OK=yes, VIX=16.58. SPY and QQQ above 5-day MA — bullish. SMCI flagged DO NOT TRADE (government raid on Taiwan offices re: alleged Nvidia chip smuggling). SH scored 12/100 — inverse ETF thesis invalid (SPY near ATH). GOOGL also eligible at 75/100 (Cloud +63%, Gemini 750M users). TSLA Q2 delivery report due today — event risk, score may shift post-report.
 ---
+
+## [2026-07-02 09:52 ET]
+Market-open trade evaluation 2026-07-02: No trade placed. All 4 eligible candidates (COIN 84, AMD 78, NVDA 76, GOOGL 75) passed score, SPY/VIX, and asset-class checks but FAILED the 2x 30-day average volume criterion. Volume ratios vs 30-day SIP average: COIN 1.35x (need 17.8M, got 12.0M Jul1); AMD 0.89x; NVDA 0.87x; GOOGL 0.70x. COIN was closest — massive Open USD stablecoin catalyst Jul1 (+11.87%) elevated volume but not to 2x. Research cache scored COIN volume 18/20 based on inference from price action, not confirmed API data. Today's COIN opening pace (IEX: 34,381 shares in 15min, estimated SIP: ~16.3M projected at 7% of-day) still below 2x threshold even at optimistic projection. Hard rule applied: volume criterion must be met for entry. Weekly trade counter remains at 0/3. Flag for research agent: volume scoring should use confirmed Alpaca SIP data rather than price-action inference.
+---
