@@ -64,8 +64,8 @@ The bot asks Perplexity AI to analyze each stock across 6 dimensions:
 
 A score below 70 means the signal is too weak to risk money.
 
-### Rule 2 — Volume ≥ 2x Normal
-The stock must be trading at least twice its normal daily volume. This confirms that big institutional investors are active — not just retail noise.
+### Rule 2 — Volume ≥ 1.25x Normal
+The stock must be trading at least 25% above its normal daily volume. This confirms that above-average institutional interest is present. The threshold was lowered from 2x to 1.25x because the bot's data source (Alpaca IEX feed) captures only a fraction of total market volume, making 2x too strict in practice.
 
 ### Rule 3 — SPY Above Its 5-Day Average
 The overall market must be in an uptrend. If the whole market is falling, even good stocks tend to fall with it. The bot waits for market health before entering.

@@ -7,7 +7,7 @@ Steps (execute in order):
 4. For each ticker, call the Perplexity AI API with this structured prompt:
    - Recent news and catalysts (last 48 hours)
    - Analyst sentiment and upgrades/downgrades
-   - Volume vs 30-day average
+   - Volume vs 30-day average (minimum threshold for entry is 1.25x — score volume accordingly)
    - Price vs 50-day and 200-day moving average
    - RSI level
    - Sector momentum

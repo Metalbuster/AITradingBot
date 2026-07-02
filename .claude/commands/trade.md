@@ -45,7 +45,7 @@ If VIX >= 28: log reason, call /journal, stop regardless of SPY direction.
 STEP 9 — Evaluate each candidate
 For each candidate (highest score first):
   a. Get technical data via Alpaca market data API (latest bar, 30-day volume avg, RSI, MA50)
-  b. Confirm volume >= 2x 30-day average
+  b. Confirm volume >= 1.25x 30-day average
   c. Confirm asset_class = us_equity (reject anything else — no options, no crypto)
   d. Calculate shares = floor(max_position_dollars / current_price), minimum 1
   e. If all checks pass: proceed to STEP 10

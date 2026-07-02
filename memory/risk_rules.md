@@ -6,7 +6,7 @@
 - Stop-loss high-beta (beta > 1.5): 7% below entry
 - Max concurrent open positions: 5
 - Min research score to enter trade: 70
-- Min volume multiplier vs 30d avg: 2x
+- Min volume multiplier vs 30d avg: 1.25x
 - SPY must be above N-day MA: 5
 - Max VIX to place new trades: 28
 - Take-profit tier 1: +8% (sell 33%)

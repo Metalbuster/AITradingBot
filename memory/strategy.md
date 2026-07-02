@@ -22,7 +22,7 @@ live_trading: false
 
 ## Entry Criteria (all must be true)
 - Research score >= 70/100
-- Volume >= 2x 30-day average
+- Volume >= 1.25x 30-day average
 - SPY above 5-day moving average
 - VIX < 28
 - Daily trade count < 3

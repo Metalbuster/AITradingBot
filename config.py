@@ -31,7 +31,7 @@ ALLOW_OPTIONS = False          # stocks only
 
 # --- Soft thresholds (also in risk_rules.md — editable) ---
 MIN_RESEARCH_SCORE = 70
-MIN_VOLUME_MULTIPLIER = 2.0
+MIN_VOLUME_MULTIPLIER = 1.25
 MAX_VIX = 28.0
 SPY_MA_DAYS = 5
 STOP_LOSS_DEFAULT_PCT = 0.05
