@@ -358,3 +358,7 @@ Intraday monitor (11:30 ET) — 2026-07-01. No open positions found. No price ch
 ## [2026-07-02 16:00 ET]
 Benchmark logged. Portfolio: $99,873.35 (0.00%) | SPY: $746.26 (-0.07%) | Alpha: +0.07%
 ---
+
+## [2026-07-02 pre-market ET]
+Research complete. 15 tickers scanned + SH. Top candidates: COIN(84), AMD(78), NVDA(76). Market TRADE_OK=yes, VIX=16.58. SPY and QQQ above 5-day MA — bullish. SMCI flagged DO NOT TRADE (government raid on Taiwan offices re: alleged Nvidia chip smuggling). SH scored 12/100 — inverse ETF thesis invalid (SPY near ATH). GOOGL also eligible at 75/100 (Cloud +63%, Gemini 750M users). TSLA Q2 delivery report due today — event risk, score may shift post-report.
+---

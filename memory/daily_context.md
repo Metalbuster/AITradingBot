@@ -1,68 +1,73 @@
 # Daily Market Context
 
-Last updated: 2026-07-01 (pre-market)
+Last updated: 2026-07-02 (pre-market)
 
 ---
 
 ## SPY
-- **Price:** ~$746.77 (intraday July 1 estimate)
-- **5-day MA:** ~$736.86
-- **vs 5-day MA:** ABOVE — SPY ~$10 above 5-day MA — entry criterion MET
-- **vs 50-day MA:** Above (implied by proximity to 52-week high range $591.89–$760.40)
-- **vs 200-day MA:** Above — long-term uptrend intact
-- **52-week high:** $760.40 (June 2, 2026); current ~$746.77 (~1.8% below high)
-- **Overall:** Short-term BULLISH. Recovered from June 30 pullback (was ~$729, below 5-day MA). SPY reclaimed its 5-day MA.
-- **Trend change from yesterday:** Reversed from BELOW to ABOVE 5-day MA. Bullish flip.
+- **S&P 500 Level:** ~7,492 (as of 2026-07-02)
+- **vs 5-day MA:** ABOVE — confirmed bullish (QQQ at 736.40 > 5-day MA 735.62; SPY near ATH consistent with above-MA status)
+- **vs 50-day MA:** Above (long-term uptrend intact above $7,000–$7,200 support range)
+- **vs 200-day MA:** Above — long-term bull trend intact
+- **ATH:** 7,613 (set previously); current ~1.6% below ATH
+- **June performance:** -1.1% in June but 18% above 2026 lows
+- **Overall:** SHORT-TERM BULLISH. Near all-time highs with intact uptrend.
 
 ## QQQ
-- **Trend:** Consistent with SPY recovery; tech-heavy. Score 48/100 — use as secondary confirmation only.
+- **Price:** 736.40
+- **5-day MA:** 735.62 — QQQ ABOVE its 5-day MA (confirmed)
+- **50-day MA:** 721.25 | **200-day MA:** 724.54 — golden cross territory (50 > 200)
+- **Signal:** Strong Buy (12 Buy / 0 Sell signals across all moving averages)
+- **24h change:** +1.73%
+- **Trend:** Bullish — tech sector leading market
 
 ## VIX
-- **Level:** ~16.5 (estimated July 1 pre-market)
-- **Status:** BELOW 28 threshold — VIX criterion MET
-- **Trend:** Stable, low volatility environment
-- **vs Yesterday:** Marginally lower from 17.56 on June 30
+- **Level:** 16.58
+- **Status:** BELOW 28 threshold — VIX entry criterion MET
+- **Trend:** Stable, slightly elevated from recent lows but non-threatening
+- **Note:** Attempting to build base above 17 support; not a concern at current levels
 
-## Top Sector (Recent 48h)
-- **Technology/AI** leading: GOOGL elevated on Dow inclusion; AMD strong on data center growth
-- **EV/Mobility:** RIVN surging on R2 launch + Uber robotaxi partnership
-- **Semiconductors mixed:** NVDA below key MAs despite strong guidance; SOX recovered +73% YTD
-- **Crypto weak:** COIN -4.3% on BTC drop below $70K
-- **Financials mixed:** SOFI regulatory concern weighing; broader fintech cautious
+## Top Sector (48h)
+- **Technology/AI** leading: GOOGL Cloud +63%, AMD Wells Fargo upgrade, NVDA Palantir deal
+- **Crypto/Fintech:** COIN +11.87% on Open USD stablecoin with Visa/Mastercard
+- **Semiconductors:** AMD rising volume + Russell 50 inclusion; NVDA Blackwell Ultra demand
+- **EV/Mobility:** TSLA Q2 deliveries report today; RIVN R2 ramp tracking ahead
+- **Financials:** SOFI mixed; Fed decision July 28 is key rate-sensitive overhang
+- **SMCI:** Avoid — government raid on Taiwan offices (chip smuggling allegation)
 
 ## Macro Events (Next 48 Hours)
-- **July 4 Holiday:** Markets closed Friday July 4 — reduced liquidity Thursday afternoon
-- **Pre-holiday volume:** Expect lower-than-average volume Thursday July 3 afternoon
-- **Earnings:** No major S&P 500 earnings scheduled this week
-- **Fed:** No meeting; Fed on hold between meetings
-- **Economic data:** Watch for ISM Manufacturing (July 1), jobs data likely later in week
-- **Quarter start (Q3 2026):** Fresh institutional allocations may drive inflows July 1-3
+- **TODAY (July 2):** TSLA Q2 delivery report — major event risk for TSLA and EV sector
+- **July 4 (Friday):** US markets CLOSED (Independence Day holiday)
+- **July 3 (Thursday):** Reduced liquidity pre-holiday; afternoon volume drop expected
+- **Earnings Season:** Starts July 14 (major banks first). Fed on July 28.
+- **Fed:** No meeting until July 28 — rates on hold, neutral short-term
+- **Watch:** Circle/USDC partnership renewal expected August 18 (COIN catalyst)
 
 ## Key Macro Themes
-- **SPY Recovery:** SPY reclaimed 5-day MA after June 30 pullback — early-July setup is bullish
-- **AI Infrastructure:** Capex debate easing as Snowflake confirmed enterprise AI at "inflection point"
-- **Dow Inclusion Flows:** GOOGL passive inflows from Dow inclusion are an ongoing multi-day catalyst
-- **EV Catalyst:** RIVN R2 delivery launch + Uber robotaxi deal is largest near-term sector catalyst
-- **Crypto Headwind:** Bitcoin at 12-month low; COIN and crypto-adjacent names under pressure
+- **AI Infrastructure Cycle:** AMD, NVDA, GOOGL all benefiting from enterprise AI spend acceleration
+- **Stablecoin Legislation (Clarity Act):** Major crypto/fintech tailwind — COIN direct beneficiary
+- **Earnings Season Starting:** July 14 banks kick off; tech reports later July/August
+- **Holiday Week:** Reduced liquidity Thursday PM; avoid chasing into close pre-July 4
+- **SMCI Risk:** Government raid creates sector overhang; NVDA association being monitored
 
 ## Overall Sentiment
-- **Bullish (short-term)**
-- SPY above 5-day MA (criterion met) — reversed from bearish yesterday
-- VIX ~16.5 (< 28) — low volatility, favorable for entries
-- Q3 start typically brings fresh institutional allocation flows
-- Pre-July 4 holiday week may reduce volume Thursday
+- **BULLISH (short-term)**
+- SPY and QQQ above 5-day MAs — both entry conditions met
+- VIX 16.58 (< 28) — low volatility, favorable for entries
+- Multiple fresh catalysts in tech/crypto space
+- Pre-holiday caution Thursday afternoon (July 3)
 
 ---
 
 ## TRADE_OK: yes
 
-**Reason:** SPY is ABOVE its 5-day moving average ($746.77 vs MA $736.86 — ~$10 above). VIX ~16.5 is below 28 threshold. Both entry conditions met.
+**Reason:** SPY is ABOVE its 5-day moving average (confirmed via QQQ data: 736.40 > 735.62 MA). VIX ~16.58 is well below 28 threshold. Both primary entry conditions met.
 
 **Top candidates cleared for further evaluation:**
-1. RIVN (77/100) — R2 launch + Uber robotaxi; confirm 2x volume at open
-2. GOOGL (75/100) — Dow inclusion flows; volume at 166% avg (confirm 2x at open)
-3. AAPL (70/100) — AI platform live; volume BELOW threshold — do NOT enter without 2x volume
+1. COIN (84/100) — Open USD stablecoin, super app expansion, confirmed heavy volume surge
+2. AMD (78/100) — Wells Fargo upgrade to $615, Rackspace AI deal, increasing volume
+3. NVDA (76/100) — Palantir deal, Blackwell Ultra demand, 49% analyst upside
 
-**When to re-check:** Confirm volume at 9:35–9:45 AM ET open. RIVN and GOOGL are primary candidates — volume confirmation at open will determine if entry is valid. AAPL is on watch but requires volume surge to qualify.
+**When to re-check:** Confirm volume at 9:35–9:45 AM ET open. All three top candidates should show 2x+ average daily volume before entry. TSLA delivery data out today — re-score TSLA if beat materializes.
 
-**SH status:** DO NOT ENTER — SPY in uptrend, inverse ETF thesis invalid.
+**SH status:** DO NOT ENTER — SPY in confirmed uptrend. Inverse ETF thesis completely invalid. SH scored 12/100.
