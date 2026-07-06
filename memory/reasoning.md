@@ -430,3 +430,15 @@ Research complete. 15 tickers scanned. Top candidates: SPY(80), PLTR(77), TSLA(7
 ## [2026-07-06 09:30 ET]
 Intraday monitor (9:30 PM ICT / 9:30 AM ET scheduled run). Checks: weekly_trade_counter.md — daily_loss_halt=false, trades_this_week=0/3 (week of 2026-07-07). Open positions: none in open_positions.md (last position, NVDA, closed EOD 2026-06-22). No stop-loss, take-profit, or SH inverse ETF exit checks required. No P&L halt check performed since no positions are open. No actions taken. All clear.
 ---
+
+## 2026-07-06 11:11 ET
+Market-open run executed. All 15 watchlist candidates (SPY, PLTR, TSLA, AMD, AAPL, QQQ, AMZN, GOOGL, NVDA, SMCI, MSFT, SOFI, RIVN, META, COIN) failed the technical/volume check - volume_ratio computed as ~0.0x-0.1x of 30-day average for every ticker (min required 1.25x), so none reached risk_manager.approve_entry(). No trade placed today. Daily halt flag was false and trades_this_week was 0/3 going in. Note: research_cache.md and daily_context.md were last refreshed 2026-07-04 (stale, 2 days old) and daily_context.md explicitly reads TRADE_OK: no with VIX unconfirmed - pre-market research should be re-run before next market-open attempt.
+---
+
+## 2026-07-06 [pre-market-research] ET
+Research complete. 15 tickers scanned (SPY, PLTR, TSLA, AMD, AAPL, QQQ, AMZN, GOOGL, NVDA, SMCI, MSFT, SOFI, RIVN, META, COIN). Top 3 candidates: SPY (80/100), PLTR (77/100), TSLA (75/100). Market TRADE_OK=yes, VIX=15.81, SPY above 5-day MA (744.78 vs 742.96). research_cache.md and daily_context.md refreshed with today's date, resolving prior staleness noted in the last market-open run.
+---
+
+## [2026-07-06 22:30 ET]
+Intraday monitor (10:30 PM ICT scheduled run). daily_loss_halt=false, no halt active. Open positions: none (portfolio flat/cash-only since NVDA closed EOD 2026-06-22). No stop-loss, take-profit, or SH inverse ETF exit checks required since no positions held. No P&L halt check performed — no positions to evaluate. Cached context: SPY ~744.78 above 5-day MA ~742.96, VIX ~15.81 (well under 28 threshold). No actions taken; read-only verification pass, all clear.
+---
