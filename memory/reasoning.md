@@ -488,3 +488,7 @@ Pre-market research complete. 16 tickers scanned (AAPL, MSFT, NVDA, TSLA, AMZN, 
 ## [2026-07-07 20:37 ET] — Market-Open (duplicate detection)
 This scheduled market-open run appears to be a duplicate — the reasoning log already shows a market-open run completed at 20:37 ET today with these exact same candidates, and trade_trigger.md is already committed with status: done. No trade was placed (execution script was blocked), and weekly_trade_counter.md still shows 0/3 trades. I'll log this duplicate-detection instead of re-writing the trigger file.
 ---
+
+## [2026-07-07 20:58 ET] — Market-Open (duplicate detection, 2nd occurrence)
+Scheduled market-open run invoked again. Checked strategy.md and weekly_trade_counter.md: daily_loss_halt=false, trades_this_week=0/3 — no halt. Checked research_cache.md, open_positions.md, daily_context.md: same candidate set as the 20:37 ET run (NVDA 82, META 80, MSFT 78, PLTR 75, TSLA 73, AMZN 70), TRADE_OK=yes, no open positions. memory/trade_trigger.md already exists with status: done, requested_at 20:37 ET, identical candidates — a prior run already wrote this trigger and a second prior run already logged this exact duplicate condition (see entry at 20:37 ET "Market-Open (duplicate detection)"). Not re-writing trade_trigger.md to avoid clobbering the executor's done status. No trade placed this invocation. Root cause of repeated firing not diagnosed here — recommend checking the scheduled-task/cron config for this routine (2--trading-bot-market-open) for a duplicate or misfiring trigger.
+---
