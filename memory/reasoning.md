@@ -244,6 +244,16 @@ No open positions. NVDA (23 shares) was fully closed EOD 2026-06-22 via market s
 **Email Notification:** SMTP blocked (ports 465/587 unavailable in remote execution environment — same issue as prior runs). Results preserved in research_cache.md, daily_context.md, and this journal. Configure SendGrid/Resend HTTP email API to restore delivery.
 ---
 
+## [2026-07-07 20:37 ET] — Market Open Trade Trigger Written
+
+Market-open routine executed. Pre-checks: daily_loss_halt=false, trades_this_week=0/3 — clear to proceed. research_cache.md candidates >=70 (excluding SPY/QQQ benchmarks): NVDA (82), META (80), MSFT (78), PLTR (75), TSLA (73), AMZN (70 borderline). open_positions.md: none held. daily_context.md: SPY ~$750.19 above 5-day MA ~$742.96, VIX ~15.81 (well below 28) — TRADE_OK=yes, regular stock entries permitted, SH inverse not triggered. Wrote memory/trade_trigger.md (status: pending) with all six candidates for the Python executor to verify buying power/positions via Alpaca API and place a limit order on the top qualifying candidate, enforcing the 5% position size cap. Did not update open_positions.md, trade_log.md, or weekly_trade_counter.md — those are owned by the Python executor upon fill confirmation.
+---
+
+## [2026-07-07 20:38 ET] — Trade Trigger Processed, No Fill Recorded
+
+Python executor flipped memory/trade_trigger.md status from pending to done, but open_positions.md, trade_log.md, and weekly_trade_counter.md (trades_this_week still 0/3) show no new position or fill. Executor likely rejected all six candidates during its own live checks (volume confirmation, buying power, or another guard) without leaving a reason in these memory files. No trade was placed this session. Recommend checking main.py's execution logs directly for the rejection reason on the next run.
+---
+
 ## 2026-06-23 11:32 ET — Intraday Monitor
 
 **Routine:** position_monitor
