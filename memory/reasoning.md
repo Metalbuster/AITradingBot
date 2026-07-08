@@ -520,3 +520,7 @@ Market-open routine executed. Pre-checks: daily_loss_halt=false, trades_this_wee
 ## [2026-07-08 21:15 ET] — Market-Open (duplicate detection)
 Scheduled market-open run invoked again. Checked trade_trigger.md: already status: done, requested_at 09:37 ET (logged as 20:37 ET above), same candidate set (META 82, TSLA 78, MSFT 76). trade_log.md and open_positions.md confirm no trade was actually placed by the executor (0 trades logged this week, no open positions) — likely rejected on a live volume/technical check on the executor side, same pattern as 2026-07-07. weekly_trade_counter.md still 0/3, no halt. No new trigger written this invocation to avoid clobbering executor state. This routine (2--trading-bot-market-open) continues to fire multiple times per session — recommend reviewing its scheduled-task/cron config to dedupe.
 ---
+
+## [2026-07-08 09:30 ET] — Intraday Monitor
+Intraday monitor (9:30 ET scheduled run). weekly_trade_counter.md: daily_loss_halt=false, trades_this_week=0/3 (week of 2026-07-07) — clear to proceed. open_positions.md: none — portfolio remains flat/cash-only since NVDA closed EOD 2026-06-22, so no stop-loss, take-profit, or SH inverse ETF exit checks were required. Alpaca GET /v2/account confirmed: equity $99,873.35 = last_equity $99,873.35 — daily P&L $0.00 (0.00%), well within the -2% halt threshold. daily_loss_halt remains false. No exits, no trades, no alerts sent. All clear.
+---
