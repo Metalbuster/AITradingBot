@@ -1,528 +1,504 @@
-# Research Cache — 2026-07-09 ET
+# Research Cache — 2026-07-11 ET
+*(Data sourced from Friday 2026-07-10 close — most recent trading day)*
 
 ---
 
 ## Scores Summary Table
 
-| Ticker | Score  | Threshold | Entry OK?   | One-Line Rationale |
-|--------|--------|-----------|-------------|--------------------|
-| META   | 80/100 | 70        | YES         | Cloud Compute launch + $10B Canadian data center + 63 analyst Strong Buy; $828 avg target; earnings July 29; RSI 49.66 neutral |
-| NVDA   | 75/100 | 70        | YES         | Chip sector rebound July 9; China H200 conditional approval; 38 Strong Buy; $301 avg target; below 50d MA but bounce developing |
-| AMD    | 73/100 | 70        | YES         | +7.75% July 9 on China H200/semi rebound; Goldman $640 target; 141.6% YTD; AI event catalyst approaching; momentum inflecting |
-| MSFT   | 74/100 | 70        | YES         | Azure primary cloud 55% CIOs; Strong Buy consensus; $561 avg target; earnings July 29 window; Wolfe cut PT but maintained Outperform |
-| TSLA   | 71/100 | 70        | YES         | RBC raised to $500; robotaxi Miami live; Q2 deliveries +25% YoY; earnings July 22; JPMorgan/SpaceX merger thesis adds optionality |
-| AMZN   | 70/100 | 70        | YES (edge)  | Goldman raised PT $325→$335; AWS +28% to $37.6B; Prime Day record $26.4B; 66 Strong Buy; stock ~$243 with 29% upside to avg target |
-| PLTR   | 64/100 | 70        | NO          | DA Davidson raised Buy to $175; Q1 +85% YoY revenue; but price declining $132→$127; below key MAs; 52-week range low at $106 limits thesis |
-| GOOGL  | 65/100 | 70        | NO          | Earnings July 22 catalyst; Waymo expanding 4 cities; 64 Strong Buy; $432 avg target; stock $361 still recovering; capex watch concern |
-| AAPL   | 63/100 | 70        | NO          | Evercore ISI reiterated Outperform; $30B Broadcom chip commitment; 45 Buy/22 Hold/4 Sell; $315 avg target near current price; limited catalyst |
-| SOFI   | 57/100 | 70        | NO          | ARK + CEO buying ahead of July 29 earnings; +65% upside per one analyst; but Hold consensus, -30% YTD; speculative; wait for earnings |
-| COIN   | 56/100 | 70        | NO          | Buy consensus (27 analysts); UK approval; $229 avg target; but Q1 net loss $394M; revenue -29% YoY; price ~$158; below-avg volume |
-| QQQ    | 55/100 | 70        | NO (ETF)    | Tech recovering with chip rebound July 9; ~$707-722 range; sector rotation easing but not confirmed reversal; watch for follow-through |
-| SPY    | 66/100 | 70        | NO (ETF)    | $745.40 above 5-day MA $742.96; VIX 16.90; tech rebounding; positive but ETF entry not our strategy; used for market context only |
-| RIVN   | 40/100 | 70        | NO          | Slight recovery $16.66 (+1%); 18% dilution-driven drop absorbed; JPMorgan still Sell; R2 production ramp thesis intact but overhang remains |
-| SMCI   | 22/100 | 70        | NO — AVOID  | Kubernetes Edge AI appliance is minor positive; but Taiwan probe ongoing; Hold consensus; $37.25 target; governance discount persists |
-| SH     | 28/100 | 60        | NOT TRIGGERED | SPY above 5-day MA ($742.96); tech rebounding; bearish momentum NOT confirmed; SH trigger condition not met |
+| Ticker | Score  | Threshold | Entry OK?      | One-Line Rationale |
+|--------|--------|-----------|----------------|--------------------|
+| META   | 86/100 | 70        | YES            | SemiAnalysis superintelligence report triggered +6.85% surge; poised to overtake Google in frontier AI within 6 months; 7GW compute ramp; pre-earnings momentum |
+| NVDA   | 78/100 | 70        | YES            | +3.2% July 10 on earnings optimism; analyst confirms durable moat; China H200 demand unlocked; RSI recovering from oversold; 38 Strong Buy |
+| AMD    | 76/100 | 70        | YES            | +5.67% July 9 to $546; Q2 guide +46% YoY rev; Goldman $640 target intact; AI event July 22-23 approaching; strong buy consensus |
+| MSFT   | 72/100 | 70        | YES            | Azure market share dominant (55% CIOs); earnings July 29 window open; -0.1% Friday flat session; $384 price; solid but no fresh catalyst |
+| AMZN   | 71/100 | 70        | YES            | Holds steady at $247; AWS AI investment thesis intact; Prime Day record confirmed; earnings July 30; Goldman PT $335 still in force |
+| TSLA   | 68/100 | 70        | NO             | Slid to $409 on Citizens cautious initiation (Optimus/Robotaxi slower ramp warning); earnings July 22 binary risk; consensus still Hold; score drops below threshold |
+| GOOGL  | 66/100 | 70        | NO             | $357 July 10; pre-earnings window July 22; Morgan Stanley sees AI benefit; but antitrust overhangs + no fresh catalyst today |
+| PLTR   | 63/100 | 70        | NO             | Recovering toward $134; DA Davidson Buy ($175 PT) intact; but still below key MAs; Feb 52-week low $106 range; price recovering slowly |
+| AAPL   | 61/100 | 70        | NO             | Down 0.9% to $313 July 10; no fresh catalyst; analyst PT essentially at current price; foldable production shortfall persists |
+| SOFI   | 55/100 | 70        | NO             | Fell 4.6% to $17.75; GF Value calls overvalued; Keefe Bruyette Underperform; -32% YTD; Goldman raised PT $17→$21 but consensus still Hold |
+| COIN   | 50/100 | 70        | NO             | CLO departure July 31 is leadership risk; crypto market cap -50% from late-2025 high; Barclays cut PT to $99; $160 price with weak fundamentals |
+| RIVN   | 42/100 | 70        | NO             | Stabilizing $18-19 range after offering; Q2 delivery beat + raised guidance are positives; but Hold consensus, offering absorption not complete |
+| QQQ    | 58/100 | 70        | NO (ETF)       | Tech/Nasdaq +1.3% July 10; recovering well; IT sector led market; used as context gauge, not entry target |
+| SPY    | 68/100 | 70        | NO (ETF)       | S&P +0.8% July 10 close; SPY ~$750-752 estimated; clearly above 5-day MA; VIX 15.67; positive market context but ETF entry not strategy |
+| SMCI   | 20/100 | 70        | NO — AVOID     | Trading at $28.24; Taiwan criminal probe ongoing; 29% monthly decline from $7B equity raise + export-control concerns; Hold consensus; AVOID |
+| SH     | 22/100 | 60        | NOT TRIGGERED  | SPY well above 5-day MA; Nasdaq +1.3%; VIX declining to 15.67; bullish market breadth; SH trigger condition not met |
 
 ---
 
-## META — SCORE: 80/100
-**Date: 2026-07-09**
+## META — SCORE: 86/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Catalyst (23/25)
+- SemiAnalysis released "The Future of Meta Superintelligence: A 1 Year Progress Update" — gave Zuckerberg and Meta high marks; projects Meta poised to overtake Google in frontier AI hierarchy within six months
+- Report highlights: 3,000 engineers building massive in-house RL environment factory; simultaneous construction of five 1GW+ "titan" datacenter clusters (Ohio, Louisiana, El Paso, Iowa, Indiana)
+- 7GW AI compute capacity being deployed in 2026; doubling to 14GW in 2027 — most aggressive compute ramp SemiAnalysis has ever seen
+- Motley Fool: "Why Meta Platforms Stock Jumped on Friday" — direct July 10 catalyst article
+- META +6.85% on July 10 to ~$669.24 — largest single-day move on watchlist that session
+- Earnings July 29 — three-week pre-earnings positioning window is now cleaner with price momentum
+
+### Sentiment (23/25)
+- SemiAnalysis report is highest-credibility independent AI/semiconductor research firm — not Wall Street noise
+- 38 analyst Buy consensus; BNP $955 Street-high target intact
+- "Meta set to overtake Google's frontier AI models in six months" — TipRanks, Yahoo Finance, Investing.com all covering the SemiAnalysis thesis
+- Zero sell ratings in tracked analyst universe; July 8 sell-the-news overhang now resolved by fresh technical breakout July 10
+
+### Technical (21/25)
+- +6.85% on confirmed volume — price broke through prior resistance decisively
+- RSI now accelerating from 49.66 (neutral) toward overbought territory after +6.85% day
+- Was below 50d MA ($604); this session likely reclaims or approaches it from below
+- Short-term: above 5d and 20d MAs; breaking out of consolidation
+- Risk: RSI may reach overbought quickly; do not chase if RSI >75 at open Monday
+
+### Market Context (19/25)
+- IT sector led market on July 10 (+1.2% XLK); META's +6.85% significantly outpaced sector
+- SPY ~$750; VIX 15.67 — optimal macro conditions for entry
+- Score jumps from 80 to 86: SemiAnalysis catalyst is a tier-1, independent, highly-credible research trigger; price confirmation with +6.85% validates thesis; earnings pre-window clean
+
+SCORE: 86/100
+
+---
+
+## NVDA — SCORE: 78/100
+**Date: 2026-07-11 (Friday July 10 close data)**
 
 ### Catalyst (21/25)
-- Meta Compute cloud launch: selling excess compute capacity to compete with AWS, Azure, GCP — structural revenue expansion
-- $10 billion Canadian data center investment announced — management betting aggressively on AI infrastructure
-- Muse Image AI generator launched by Meta Superintelligence Labs — product expansion in generative AI
-- Earnings July 29 — three-week pre-earnings positioning window open
-- Motley Fool: "Meta's Cloud News Just Made This the Most Obvious Buy in the Market" (July 9 headline)
-
-### Sentiment (22/25)
-- 38 analyst Buy consensus; 63 analyst Strong Buy per broader universe; avg target $827–$839
-- BNP $955 target (Street high) intact; zero sell ratings in tracked analyst universe
-- 90% confidence BUY rating from public.com: targeting $797 for 45% upside
-- July 8: META stock fell despite cloud news — "why did the stock fall anyway?" suggests some sell-the-news dynamic to watch
-
-### Technical (19/25)
-- RSI 14d: 49.66 — neutral; neither overbought nor oversold; room to move either direction
-- 5-day MA: $574.39 (Buy signal); 20-day MA: $576.51 (Buy signal); 50-day MA: $604.81 (Sell signal)
-- Price ~$615 is above 5d and 20d MAs but below 50d MA — mixed but short-term positive
-- MACD: -8.32 (Sell signal) — bearish momentum from 50d MA pullback not yet resolved
-- Stock up 2.55% on July 6; up again on cloud news; but July 8 saw a pullback despite positive news = mixed intraday behavior
-
-### Market Context (18/25)
-- Tech sector recovering July 9 on chip rebound; rotation headwind easing
-- SPY $745.40 above 5-day MA — clean entry environment
-- VIX 16.90 — well below 28 threshold
-- Score modestly reduced from 82 to 80: July 8 sell-the-news reaction on cloud announcement is a caution flag; MACD bearish; 50d MA overhead resistance at $604
-
-SCORE: 80/100
-
----
-
-## MSFT — SCORE: 74/100
-**Date: 2026-07-09**
-
-### Catalyst (20/25)
-- Azure is primary cloud for 55% of U.S. CIOs — structural market share data continues to favor MSFT
-- Earnings July 29 — clean three-week pre-earnings window open
-- $190B AI capex commitment for calendar 2026 signals sustained investment thesis
-- Microsoft replacing OpenAI/Anthropic with its own AI models — cost reduction + control over AI stack (bullish long-term)
-- 3,200 Xbox job cuts + studio spin-offs — margin improvement narrative for enterprise-focused bull thesis
-
-### Sentiment (20/25)
-- 33 analyst Buy per MarketBeat; ~97 analysts overall with most "Strong Buy" per broader universe
-- Average price target $560–$592 range across sources; significant upside from current ~$387 level
-- Wolfe Research cut PT $570→$525 on July 6 (maintained Outperform) — modest negative but not a conviction change
-- Overwhelmingly bullish institutional consensus; no downgrades to Sell
-
-### Technical (17/25)
-- Price ~$387–$395 range; in recovery after July 1 +4% session on Haleon AI deal
-- Expected above both 50d and 200d MAs given year-long uptrend and recent recovery
-- Tech sector recovering July 9 reduces headwind vs yesterday
-- RSI not precisely confirmed; estimate 45–55 range
-
-### Market Context (17/25)
-- Tech rotation easing as chips rebound — improves MSFT entry environment vs July 8
-- Wolfe PT cut is a mild drag but well within normal analyst range adjustment
-- Three-week earnings window (July 29) remains clean
-- Score holds at 74: strong fundamental/consensus thesis; July 9 tech recovery helps vs yesterday's 76 (slight MA data update moderates score)
-
-SCORE: 74/100
-
----
-
-## NVDA — SCORE: 75/100
-**Date: 2026-07-09**
-
-### Catalyst (21/25)
-- China to conditionally allow H200 AI chip sales to Chinese AI companies — MAJOR new demand catalyst unlocked
-- TD Cowen: NVDA has "underappreciated competitive edge" in next AI phase via integrated hardware/software platform
-- Forward P/E down to 22.22x (lowest since 2019) despite record revenues of $215.9B — valuation becoming compelling
-- DeepSeek building own chip (2% slip on news) — competitive risk emerging but chip stocks fully rebounding July 9 on H200 news
-- Chip stocks rebound broad-based July 9 pre-market: NVDA, AMD, INTC, MU all higher
+- +3.2% July 10 to ~$209.26; analyst citing upcoming earnings as positive catalyst; "compelling value" thesis strengthening
+- Analyst confirms NVDA's durable moats across products, pricing, supply chain — reinforces long-term competitive position
+- China H200 conditional approval (Thursday catalyst) still fresh; demand unlock not yet fully priced in
+- Forward P/E at 22.22x (lowest since 2019) despite $215.9B record revenues — valuation more compelling than at higher prices
+- Earnings approaching in August — no near-term binary event risk for 4-5 weeks
 
 ### Sentiment (21/25)
-- 38 analyst Strong Buy consensus unchanged; avg target $301.62 (47.77% upside from ~$204 current post-rebound)
-- Goldman: "compelling" forward P/E thesis; Intellectia.ai analysis bullish for July 2026
-- China H200 approval reverses the key near-term overhang that had been pressuring the stock
-- Short-term price pressure from DeepSeek chip headline fully absorbed; rebound confirmed
+- 38 analyst Strong Buy consensus unchanged
+- Average price target $301.62 — 44% upside from ~$209 current price
+- Benzinga: "Nvidia Cheaper Than Apple, Microsoft, Meta? Analyst Sees 'Compelling Value'" — July 10 headline
+- Goldman: valuation case strengthening at current prices
+- No sell-side downgrades; China H200 removes prior near-term overhang
 
-### Technical (18/25)
-- RSI was 39.67 (July 8) — approaching oversold, setting up bounce; now rebounding July 9
-- Price ~$196.93 (July 8 close); rebounding in premarket toward $200–$205 zone
-- Still below 50d MA (~$210); rebound needs follow-through above $202 (5d MA) to confirm technical recovery
-- MACD: Buy divergence signal even with negative value — technical recovery signal intact
-- Volume expected to be elevated on China H200 catalyst + sector rebound
+### Technical (19/25)
+- RSI recovering from 39.67 (near-oversold) on July 8; now rebounding two consecutive sessions
+- V-shape recovery pattern: July 8 close ~$196.93 → July 9 +3-4% → July 10 +3.2% to $209.26
+- Price now approaching 50d MA (~$210) — a close above confirms technical recovery
+- Volume elevated on China H200 catalyst; expect above 30-day average for volume requirement
+- YTD trend intact; semiconductor cycle recovering
 
-### Market Context (15/25)
-- Semiconductor sector specific positive catalyst (China H200) driving this move — not just broad market
-- SPY $745.40 above 5-day MA; VIX 16.90 — clean macro environment for entry
-- Score jumps from 68 to 75: China H200 approval is a concrete demand catalyst that changes the near-term thesis
-- Key risk: still below 50d MA; confirm price above $202 (5d MA) before entry to validate recovery
+### Market Context (17/25)
+- SK Hynix IPO on Nasdaq July 10 (opened $170, +14%) reinforces semiconductor sector enthusiasm
+- IT sector +1.2% on July 10; NVDA participating as primary AI chip name
+- SPY positive; VIX 15.67 — supportive macro
+- Score rises from 75 to 78: sustained multi-session recovery + earnings catalyst approaching + "compelling value" analyst commentary + SK Hynix IPO enthusiasm elevating semiconductor sentiment
 
-SCORE: 75/100
+SCORE: 78/100
 
 ---
 
-## TSLA — SCORE: 71/100
-**Date: 2026-07-09**
+## AMD — SCORE: 76/100
+**Date: 2026-07-11 (Friday July 10 close data)**
 
-### Catalyst (20/25)
-- RBC Capital raised PT from $475 to $500 (Outperform) — fresh tier-1 upgrade with $500 target
-- JPMorgan flagged Tesla/SpaceX combination as "strategically coherent" — adds optionality to bull thesis
-- Miami Robotaxi confirmed operational (no safety driver) — live autonomous revenue model
-- Q2 deliveries 480,126 (+25% YoY) — best Q2 ever; fundamental execution solid
-- Earnings July 22 — two-week window; approaching key binary event
+### Catalyst (21/25)
+- Closed July 9 at $546.72 (+5.67% on the session); prior day was China H200 catalyst-driven surge
+- Q2 2026 guidance: ~$11.2B revenue (+46% YoY); non-GAAP gross margin ~56% — top-tier execution guidance
+- Goldman Sachs $640 PT (from $450); Morgan Stanley bullish on MI400 + Venice CPUs; Wells Fargo $615; UBS $670; Cantor $700
+- AMD Advancing AI event July 22-23 — concrete product/roadmap catalyst in 12 days
+- AI inference market expanding; H200 approval in China directly expands AMD's addressable market
 
-### Sentiment (16/25)
-- 25 analyst Hold consensus (per MarketBeat July 7) — this is the single biggest drag on score today
-- Avg price target $416.99–$424 — limited upside from current ~$419 level (near zero upside to avg target)
-- RBC $500 is the bull case; but consensus Hold with thin avg target upside limits institutional urgency
-- 204x forward P/E valuation continues to divide analysts; BYD competition remains bear argument
+### Sentiment (20/25)
+- 36 analyst Buy per MarketBeat; 51 analyst Strong Buy per broader universe
+- Average target $512.27 (12-month) — slightly below current $546 level after the surge; some target catch-up expected
+- Tier-1 houses (Goldman, Morgan Stanley, UBS, Wells Fargo, Cantor) all with high PT conviction
+- High beta (2.469) means volatility cuts both ways; priced at trailing P/E 173 (execution risk)
 
 ### Technical (19/25)
-- Price ~$417–$420; above 50d MA $387.51 (bullish structure)
-- RSI 55.17 (as of July 8) — neutral, room to run
-- Volume normalized after delivery day; July 9 tech rebound may lift TSLA modestly
-- 20d MA ~$404 — stock comfortably above it; short-term trend positive
+- Strong two-session recovery; +7.75% (July 9) + likely continuation July 10
+- Q2 guidance at +46% YoY confirms fundamental underpinning of technical move
+- Approaching or above 50d MA after V-shape bounce
+- YTD gain extraordinary; bull trend intact
+- Risk: high beta amplifies any AI capex expectation wobble
 
 ### Market Context (16/25)
-- Tech sector recovering July 9; EV + discretionary names benefit from risk-on return
-- Oil up from Iran geopolitical risk is mild headwind for EV cost narrative; watch
-- Score adjusted from 78 to 71: Hold consensus with near-zero analyst target upside from current price moderates score; earnings binary risk July 22 is double-edged
-- Still above 70 threshold on strong execution, fresh RBC upgrade, and clean technicals
+- Semiconductor sector leading IT recovery; AMD primary beneficiary alongside NVDA
+- SK Hynix Nasdaq debut adds sector excitement
+- Score holds at 76 from 73: Q2 guidance strength (+46% YoY) + approach to 50d MA + upcoming AI event = actionable; slight trim from 78 to 76 on high P/E execution risk and beta risk
+
+SCORE: 76/100
+
+---
+
+## MSFT — SCORE: 72/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Catalyst (19/25)
+- Flat session July 10 (-0.1% to $384.13) — no new catalyst but no negative catalyst either
+- Azure primary cloud for 55% of U.S. CIOs — durable market share leadership thesis unchanged
+- Earnings July 29 — three-week pre-earnings positioning window remains open
+- $190B AI capex commitment for 2026; replacing OpenAI/Anthropic with proprietary models (cost reduction thesis)
+- "Big Tech Resurgence" narrative building (Yahoo Finance July 10) benefits MSFT as Mag 7 member
+
+### Sentiment (20/25)
+- Strong Buy consensus; 33 analyst Buy per MarketBeat; avg PT $560-$592 range vs current $384
+- Significant upside to analyst consensus (46%+) from current depressed level
+- Morgan Stanley: Mag 7 stock valuations at decade-low premium — MSFT included in re-rating thesis
+- Wolfe Research PT cut ($570→$525 Outperform maintained) is stale news; fully absorbed
+
+### Technical (17/25)
+- $384 price; above both 50d and 200d MAs based on year-long recovery
+- RSI estimated 45-55; not overbought; room to move
+- Flat session after positive week for tech suggests consolidation, not distribution
+- Three-week earnings window is the primary entry rationale
+
+### Market Context (16/25)
+- Tech sector positive July 10; MSFT participation modest (-0.1%) vs META (+6.85%)
+- Broader "AI chip stocks step back, Mag 7 steps up" rotation narrative (Yahoo Finance) supports MSFT
+- Score drops from 74 to 72: flat July 10 session (-0.1%) with no new catalyst; below META/NVDA/AMD momentum; earnings window thesis intact but price action muted
+
+SCORE: 72/100
+
+---
+
+## AMZN — SCORE: 71/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Catalyst (19/25)
+- "Holds steady" July 10 at $246.92-$247 range — stable price action
+- $25B additional borrowing for data center expansion announced (AI infrastructure commitment)
+- Q1 2026: $181.5B in sales (+17% YoY); AWS growth best-in-class
+- Prime Day record $26.4B confirmed; Q2 revenue certainty established
+- Earnings July 30 — three-week pre-earnings window open; Goldman PT $335 intact
+
+### Sentiment (19/25)
+- 66 analyst Strong Buy consensus; $312.91 average target (27% upside from $247)
+- Morgan Stanley: AMZN to benefit from AI shift (AI chip rotation to cloud players narrative)
+- FX Leaders July 10: "Amazon AMZN Stock Holds Steady as AI Investment and AWS Growth Support Outlook"
+- Management conviction: $25B bond raise signals strong AI pipeline confidence
+
+### Technical (17/25)
+- "Holds steady" at $247 — consolidating after prior week's +6.9% recovery
+- Consolidation after a strong recovery is constructive, not bearish
+- Likely above 50d MA after prior week's advance; 200d MA relationship positive
+- RSI estimated recovering, not overbought; clean setup for pre-earnings drift
+
+### Market Context (16/25)
+- AWS benefits from "AI chip rotation to cloud" narrative Morgan Stanley identified July 10
+- $247 price is well below $312 analyst avg target — significant institutional undervaluation
+- Score rises from 70 to 71: stable consolidation + Morgan Stanley cloud rotation thesis + $25B AI commitment + record Prime Day data all maintain the edge-case thesis with slightly more confidence
 
 SCORE: 71/100
 
 ---
 
-## AMZN — SCORE: 70/100
-**Date: 2026-07-09**
+## TSLA — SCORE: 68/100
+**Date: 2026-07-11 (Friday July 10 close data)**
 
-### Catalyst (19/25)
-- Goldman Sachs raised PT from $325 to $335 (July 9) — fresh tier-1 PT raise on same day
-- AWS Q4 2025 growth revised up: 28% growth to $37.6B — best-in-class cloud performance
-- Prime Day generated record $26.4B in U.S. sales — retail/consumer demand validation
-- Earnings July 30 — three-week pre-earnings window open
-- Long-term AWS capex projection raised to $827B (2026–2028) — structural AI commitment
+### Catalyst (17/25)
+- Citizens Financial initiated coverage with cautious view: Optimus and Robotaxi may take longer to generate revenue than Wall Street consensus expects — fresh negative catalyst July 10
+- Stock trading $402.81-$412.58 range July 10; closed ~$409.58 (-0.7% from high, flat to slightly negative)
+- Miami Robotaxi live; Austin/Dallas/Houston service active (only 59 vehicles total) — execution real but still tiny scale
+- Earnings July 22 (12 days) — high binary event risk approaching; any miss in robotaxi economics commentary = downside
+- Q2 deliveries 480,126 (+25% YoY) remain a strong fundamental anchor
 
-### Sentiment (19/25)
-- 66 analyst Strong Buy consensus; avg target $312.91 (29.65% upside from ~$243)
-- Goldman PT raise July 9 adds same-day conviction signal
-- Stock at $243 — significantly below avg analyst target, suggesting institutional underweight vs. fundamental value
-- No sell-side downgrades visible; $25B bond raise for AI capex demonstrates management conviction
-
-### Technical (17/25)
-- Stock at $243.62 (down 0.96% in 24h; -1.52% past 6 months) — underperforming despite strong fundamentals
-- Recovery week of +6.9% (prior week) likely means above 50d MA; 200d MA relationship estimated positive
-- RSI not precisely confirmed; estimated neutral-to-recovering based on prior week recovery
-- Tech sector bounce July 9 should provide moderate tailwind
-
-### Market Context (15/25)
-- AWS growing faster than Azure in this data point (28% vs Azure 39–40% — but AMZN at a much larger base)
-- Prime Day catalyst is near-term revenue certainty for Q2 beat thesis
-- Score maintained at 70 (edge): Goldman same-day PT raise + record Prime Day + AWS acceleration barely lifts to threshold; stock underperformance and 6-month decline moderate enthusiasm
-
-SCORE: 70/100
-
----
-
-## PLTR — SCORE: 64/100
-**Date: 2026-07-09**
-
-### Catalyst (18/25)
-- DA Davidson raised PLTR PT from $165 to $175 (Buy) — Gil Luria says Palantir has "grown into its valuation"
-- Q1 2026: Revenue +85% YoY; raised full-year guidance to ~$7.65B
-- Market cap reached $300B milestone — institutional recognition of scale
-- Nvidia partnership, government AI, Latin American expansion, SAP modernization — diversified growth vectors
-- Earnings not until August — no near-term binary event risk
-
-### Sentiment (16/25)
-- 21 analyst Buy consensus; avg target $181.63 (40.47% upside from ~$129 current)
-- DA Davidson increased conviction (Hold→Buy, PT $165→$175) is fresh and actionable
-- 141x P/E still keeps some analysts on sidelines; insider selling cited as risk
-- Positive fundamental trajectory but valuation multiple remains debate topic
-
-### Technical (14/25)
-- Price declining: $134.37 (July 8) → $127.27 (July 9) — stock falling despite analyst upgrades
-- Daily range July 9: $124.81–$128.63; below 100 EMA ($132.92) and 100 SMA ($133.89)
-- Support cluster at $127–$128 (multiple 4h MAs); break below would expose $122–$123
-- Stock at/near 52-week low territory (52-week low $106.37) — bearish technical momentum
-- Tech sector rebound may help but PLTR is underperforming even in good tape conditions
-
-### Market Context (16/25)
-- AI software names partially insulated from semi rotation; government AI contracts are durable revenue
-- PLTR declining while AMD/NVDA rise July 9 — stock-specific weakness, not macro
-- Score drops from 68 to 64: price falling despite upgraded analyst targets = price-action divergence from fundamentals; technicals deteriorating
-- Not actionable below 70 threshold; wait for price to stabilize above $132–$134 resistance
-
-SCORE: 64/100
-
----
-
-## GOOGL — SCORE: 65/100
-**Date: 2026-07-09**
-
-### Catalyst (16/25)
-- Earnings July 22 — two-week catalyst window with significant near-term binary event
-- Waymo expanding robotaxi to 4 new cities: San Diego, Las Vegas, Tampa, Denver — AV scale-up meaningful
-- CEO Sundar Pichai confirmed "unprecedented internal and external demand" for AI compute at analyst event
-- CFO: 2027 capex will "significantly increase" over 2026 — confidence in AI monetization runway
-- Made by Google event scheduled August 12 NYC — hardware/AI product launches upcoming
-
-### Sentiment (17/25)
-- 64 analyst Strong Buy; avg target $432.29 (19.62% upside from ~$362)
-- Analyst consensus broadly positive despite dual legal overhangs (EU antitrust + DOJ search monopoly)
-- Cloud backlog tops run-rate — Google Cloud demand acceleration signal
-- No fresh downgrade; Q4 2025 revenue momentum expected to continue
-
-### Technical (17/25)
-- Price $361.92 (July 8 close); down -1.39% on July 8; July 9 tech rebound should provide support
-- Estimated above 50d and 200d MAs based on year-long uptrend pattern
-- RSI estimated 45–52 range; not overbought or deeply oversold
-- Earnings July 22 creates two-week window with moderate risk/reward
-
-### Market Context (15/25)
-- Tech sector recovering July 9; GOOGL not directly impacted by chip rebound catalyst
-- EU fine and DOJ case create persistent valuation discount vs pure-play AI names
-- Score rises modestly from 63 to 65: July 22 earnings brings catalyst window closer; Waymo expansion is real operational progress; CEO AI demand commentary bullish
-- Still below 70: no fresh hard catalyst today; tech rebound is broad, not GOOGL-specific
-
-SCORE: 65/100
-
----
-
-## AAPL — SCORE: 63/100
-**Date: 2026-07-09**
-
-### Catalyst (14/25)
-- Evercore ISI reiterated Outperform rating — continued institutional coverage conviction
-- $30B commitment to Broadcom for custom silicon (extended from $19B deal) — chip supply security to 2031+
-- Earnings July 30 — three-week pre-earnings window open
-- No new major product announcement or surprise positive catalyst in last 24 hours
-- Foldable iPhone production shortfall (500K–1M vs 10M target) remains execution risk for H2
-
-### Sentiment (16/25)
-- 45 Buy / 22 Hold / 4 Sell (per July 9 data) — less bullish than peer mega-caps; sell ratings notable
-- Avg price target $315.09 (0.54% upside from $312 current) — target basically at current price
-- $325 avg PT (3-month window) shows slightly more upside; but $315 near-term is virtually no upside
-- Evercore Outperform reiteration is maintenance, not a fresh upgrade
-
-### Technical (17/25)
-- Price $313.39 (July 8 close); pre-market July 9 ~$312
-- RSI 37.7 (from July 8) — neutral to soft; recovering from lower levels
-- Above 50d MA ($295.90) and 200d MA ($271.90) — MA structure constructive
-- Tech sector rebound July 9 may support AAPL modestly; not a primary chip rebound beneficiary
-- Stable price action; not in breakdown but not in accumulation mode either
-
-### Market Context (16/25)
-- Defensively positioned within tech; above both MAs provides structural support
-- $315 avg analyst PT essentially at current price = no near-term alpha case
-- Foldable iPhone production shortfall is a known risk but not yet being punished further
-- Score holds at 63: Broadcom commitment is structural positive; but analyst target at current price + 4 sell ratings + no fresh catalyst = below threshold
-
-SCORE: 63/100
-
----
-
-## AMD — SCORE: 73/100
-**Date: 2026-07-09**
-
-### Catalyst (21/25)
-- +7.75% July 9 on China H200/semiconductor sector rebound — price momentum confirming
-- China plans to allow leading AI companies to buy limited H200 chips — directly expands AMD's addressable market for AI inference
-- Goldman Sachs $640 target (from $450); Morgan Stanley bullish on MI400 series + Venice CPUs
-- AMD Advancing AI event July 22–23 — concrete product/roadmap catalyst two weeks away
-- 141.6% YTD return (per GuruFocus) — already the strongest performer in high-conviction stock list
-
-### Sentiment (19/25)
-- 36 analyst Buy per MarketBeat; 51 analyst Strong Buy per broader universe
-- Goldman, Morgan Stanley, Wells Fargo ($615), UBS ($670), Cantor ($700) — clustered tier-1 bullish targets
-- Morgan Stanley supply chain analysis: advanced packaging allocation rising significantly through 2027
-- Q2 2026 earnings August 4 — clean 25-day window; no near-term binary event risk
+### Sentiment (15/25)
+- Citizens initiation cautious; Hold consensus unchanged (25 analysts per MarketBeat)
+- Average PT $416.99-$424 — current ~$409 is near consensus target; limited upside to avg target
+- RBC $500 PT (bull case) intact; but consensus says "hold near current price"
+- NJ robotaxi ban news (July 8) adds regulatory risk overhang
 
 ### Technical (18/25)
-- July 9: +7.75% bounce after July 8 -6.97% decline — V-shape recovery pattern
-- RSI recovering from potential oversold levels after -6.97% decline; bounce on high volume expected
-- Likely approaching or reclaiming 50d MA on today's move
-- YTD trend: 141.6% gain indicates underlying bull trend intact despite recent volatility
-- China H200 catalyst is a sector-wide event; AMD specifically benefits for AI inference workloads
+- Price $409 — above 50d MA $387.51 (bullish structure maintained)
+- RSI estimated 50-55; neutral; not overbought
+- Slipping from prior $417-$420 range; downward drift into earnings is caution flag
+- Earnings July 22 creates binary volatility risk in 12 days
 
-### Market Context (15/25)
-- Semi sector rebound is today's dominant theme; AMD is a primary beneficiary
-- SPY $745.40 above 5-day MA; clean macro environment
-- VIX 16.90 — below threshold
-- Score jumps from 60 to 73: +7.75% price action + China H200 demand catalyst + Goldman target intact + AI event upcoming = actionable thesis
-- Key watch: confirm volume is above 30-day average to meet entry criteria
+### Market Context (18/25)
+- EV sector: TSLA outperforming RIVN but underperforming tech names on July 10
+- NJ regulatory risk + Citizens cautious initiation + approaching earnings = three simultaneous headwinds
+- Score drops from 71 to 68: Citizens cautious initiation is the new catalyst that tips below threshold; earnings binary in 12 days with Hold consensus and near-consensus price creates unfavorable risk/reward
 
-SCORE: 73/100
+SCORE: 68/100
 
 ---
 
-## SOFI — SCORE: 57/100
-**Date: 2026-07-09**
+## GOOGL — SCORE: 66/100
+**Date: 2026-07-11 (Friday July 10 close data)**
 
-### Catalyst (14/25)
-- CEO Anthony Noto buying SOFI shares on the open market — insider buying signal
-- ARK Invest added 200,000+ shares ahead of July 29 earnings — institutional accumulation signal
-- SoFi Small Business Loans platform: new credit vertical expanding TAM
-- SoFi Social 50 Income ETF launched — product diversification
-- Q2 earnings July 29 — the real forward catalyst; current fundamentals being positioned for
+### Catalyst (16/25)
+- Price $357.20 (range $351.08-$360.68) on July 10 — modest session, no fresh positive catalyst
+- Morgan Stanley: GOOGL to benefit from AI shift as semiconductor rotation moves to cloud players
+- Waymo robotaxi expansion: 4 new cities (San Diego, Las Vegas, Tampa, Denver) — scale-up ongoing
+- Earnings July 22 — 12-day window; approaching key binary event
+- SemiAnalysis report on META notes Meta poised to overtake GOOGL in AI frontier within 6 months — this is a NEGATIVE COMPETITIVE catalyst for GOOGL
 
-### Sentiment (13/25)
-- 15 analyst Hold consensus (per MarketBeat July 6); Barclays maintained Hold
-- One analyst cites 65%+ upside; ARK and CEO buying are contrarian conviction signals
-- Hold consensus in a fintech is not urgency-generating; -30% YTD reflects ongoing market skepticism
-- Avg target ~$22.40 — implies upside from current low-teens range but no institutional urgency today
+### Sentiment (17/25)
+- 64 analyst Strong Buy; avg target $432.29 (21% upside from $357)
+- Morgan Stanley cloud rotation thesis is positive; but SemiAnalysis META-over-GOOGL narrative is a headwind
+- EU antitrust + DOJ search monopoly cases remain active; valuation discount persists
+- No fresh downgrade; pre-earnings positioning likely muted given AI competition narrative
 
-### Technical (15/25)
-- Stock down 30%+ YTD — in sustained downtrend
-- Recovering but below all major MAs based on YTD decline
-- RSI estimated 40–50 range; not in oversold bounce but not in accumulation either
-- CEO + ARK buying is a technical floor signal but not yet confirmed by price action breakout
-
-### Market Context (15/25)
-- Financials sector outperforming; SOFI benefits modestly from sector rotation toward financials
-- Interest rate environment softened (June NFP miss) — favorable for net interest margin
-- Score unchanged at 57: insider + ARK buying is compelling value signal but Hold consensus + YTD underperformance + no confirmed technical setup keeps below threshold
-
-SCORE: 57/100
-
----
-
-## COIN — SCORE: 56/100
-**Date: 2026-07-09**
-
-### Catalyst (14/25)
-- UK regulatory approval for stock, derivatives, stablecoins, savings — strategic diversification milestone
-- 27 analyst Buy consensus per July 9 data — broader community more bullish than mixed headlines suggest
-- Earnings approaching (July 29–30 range) — forward catalyst window open
-- Crypto macro: China H200 approval could indirectly support crypto risk sentiment
-- Bernstein, Cantor Fitzgerald, Benchmark all constructive
-
-### Sentiment (13/25)
-- Buy consensus (27 analysts); avg 12-month target $229.14 (43.79% upside from ~$159)
-- But JPMorgan, Barclays, Clear Street flagging weak crypto trading pressure — divide in analyst community
-- Q1 2026 net loss $394M; revenue -$600M YoY to $1.43B — fundamental deterioration remains the core concern
-- Price ~$158; limited movement July 9 (range $157–$159)
-
-### Technical (14/25)
-- Price $158.20 (July 9 intraday); minimal movement in tight range
-- Volume below 30-day average in recent sessions — below 1.25x vol threshold
-- RSI estimated 45–52 range; consolidating after prior +19% surge
-- No technical breakout pattern; stock in range-bound consolidation
-
-### Market Context (15/25)
-- Semi rebound and crypto risk-on correlation may provide mild tailwind
-- But COIN fundamental weakness (Q1 net loss, revenue decline) is company-specific, not macro-driven
-- UK expansion is longer-term strategic; not near-term revenue catalyst
-- Score unchanged at 56: structural positive (UK + analyst target) offset by weak Q1 fundamentals and below-avg volume
-
-SCORE: 56/100
-
----
-
-## QQQ — SCORE: 55/100
-**Date: 2026-07-09**
-
-### Catalyst (10/25)
-- Semi/tech sector rebound July 9 on China H200 news — primary positive catalyst for QQQ components
-- AMD +7.75%, NVDA rebounding — top QQQ holdings lifting index
-- Sector rotation from healthcare/financials back to tech beginning to reverse
-
-### Sentiment (13/25)
-- QQQ ~$707–$722 range; recovering after July 8 close at $706.91
-- 28.04% 12-month return — long-term trend intact despite short-term volatility
-- Institutional sector rotation to healthcare/financials not yet fully reversed
-
-### Technical (16/25)
-- Price recovering from $704.94 (July 8 low) toward $720+ on July 9 chip rebound
-- 52-week range $551–$748; currently at moderate position within range
-- RSI estimate: recovering from ~40 toward 45–50 on today's rebound
-- Not in breakout territory yet; need confirmation close above $725+ to signal technical recovery
+### Technical (17/25)
+- $357 is down from $362 July 8 close — modest erosion week-end
+- Still above 50d and 200d MAs based on year-long pattern
+- RSI estimated 43-50; not oversold but not accelerating
+- META's +6.85% potentially rotates capital away from GOOGL (substitution within AI plays)
 
 ### Market Context (16/25)
-- SPY above 5-day MA; VIX 16.90; macro improving
-- Chip-driven rebound today is sector-specific; healthcare/financials rotation not fully reversed
-- Score rises from 48 to 55: better macro environment + chip rebound improves QQQ outlook; but ETF entry not our strategy; used as market gauge
-
-SCORE: 55/100
-
----
-
-## SPY — SCORE: 66/100
-**Date: 2026-07-09**
-
-### Catalyst (15/25)
-- Macro improving: chip stocks rebounding on China H200 approval
-- VIX 16.90 — stable, below 28
-- SPY $745.40 — cleared above 5-day MA ($742.96) with more margin than July 8 ($743 barely above)
-- Iran geopolitical risk remains but not escalating further; oil stabilizing
-
-### Sentiment (16/25)
-- SPY above 5-day MA: regular stock entry mode confirmed
-- Semi sector recovery suggests tech rotation beginning to reverse
-- Market structure more positive than yesterday; sectors more balanced
-
-### Technical (19/25)
-- SPY: $745.40 vs 5-day MA $742.96 — above by $2.44 (improved margin from July 8's razor-thin $0–$1)
-- Day range July 9: $739.51–$746.15 — held above 5-day MA throughout
-- 52-week range $618.05–$760.40; trading well within normal range
-- Short-term trend: weak rising trend per stockinvest.us; 90% probability of $780–$847 in 3 months
-
-### Market Context (16/25)
-- VIX 16.90 (up slightly from 16.36); still well below 28 threshold
-- Healthcare/Financials still leading sectors but tech recovering — rotation moderating
-- Score rises from 62 to 66: SPY above 5-day MA with better margin; chip sector rebound positive; ETF entry not our strategy but confirms TRADE_OK conditions
+- SemiAnalysis "META to overtake GOOGL in AI" is a new competitive narrative today — directly relevant to GOOGL thesis
+- Earnings July 22 is double-edged; Waymo expansion is a real long-term asset
+- Score unchanged at 66: META's AI report may steal incremental capital from GOOGL; no new GOOGL-specific positive today; approaching earnings but at lower price vs July 8
 
 SCORE: 66/100
 
 ---
 
-## RIVN — SCORE: 40/100
-**Date: 2026-07-09**
+## AAPL — SCORE: 61/100
+**Date: 2026-07-11 (Friday July 10 close data)**
 
-### Catalyst (10/25)
-- Minor price recovery: $16.66 (+1.03% July 9) after 18% dilution-driven crash
-- Q2 deliveries 12,194 (beat vs 9,000–11,000 guide); raised 2026 delivery guidance to 65K–70K
-- $1.5B capital raise proceeds fund DOE loan and R2 production ramp — strategic deployment, not distress
-- Rivian R2 SUV positions to directly compete with Tesla Model Y — long-term narrative intact
+### Catalyst (14/25)
+- Down 0.9% (-$2.79) to $313.43 on July 10 — underperforming the market; IT sector up 1.2% while AAPL is down
+- No new positive catalyst on July 10
+- $30B Broadcom chip commitment remains structural but stale
+- Earnings July 30 — three-week window open but underperformance vs peers mutes pre-earnings drift thesis
+- Foldable iPhone production shortfall (500K-1M vs 10M target) remains unresolved H2 risk
 
-### Sentiment (9/25)
-- JPMorgan (Rajat Gupta) raised 2026 delivery forecast but maintained Sell rating — execution acknowledged, valuation rejected
-- $1.5B dilutive offering at $15.50/share priced below recent market price — market voted against it (-18%)
-- 15.61% market cap increase over past week (per data) — confusing signal; possible data error given 18% stock drop; net negative
-- Recovery of +1% July 9 is stabilization, not reversal
+### Sentiment (16/25)
+- 45 Buy / 22 Hold / 4 Sell — mixed; sell ratings noted
+- Avg PT $315.09 (essentially at current $313 price = zero near-term upside)
+- Evercore Outperform reiteration is maintenance-mode; no fresh upgrade
+- AAPL underperforming tech peers on July 10 suggests institutional de-emphasis vs AI-focused names
 
-### Technical (11/25)
-- Price $16.66; all MAs likely above current price after 18% drop
-- RSI likely deeply oversold (<35); "falling knife" risk still present
-- Volume elevated during and after offering — distribution signal, not accumulation
-- Support at $15.50 (offering price) is the floor to watch
+### Technical (15/25)
+- Price $313.43; above 50d MA ($295.90) and 200d MA ($271.90) — MA structure constructive
+- BUT: falling on a day when tech sector rose 1.2% = relative weakness signal
+- RSI 37.7 (July 8) likely still in 38-44 range; sub-50; not a momentum buy
+- Not a breakdown, but relative underperformance vs sector is a yellow flag
 
-### Market Context (10/25)
-- EV sector: TSLA outperforming (autonomy thesis); RIVN underperforming (dilution/valuation concerns)
-- $1.03% recovery is minimal after 18% decline; full absorption of offering likely takes 2–4 weeks
-- Score rises modestly from 38 to 40: slight recovery + delivery beat context; but fundamental dilution overhang persists
-- Do not enter; wait for offering to be fully absorbed and price to stabilize above $17.50+
+### Market Context (16/25)
+- IT sector +1.2% on July 10; AAPL -0.9% = -2.1% relative underperformance vs sector on Friday
+- No AI/chip story to leverage; META and NVDA absorbing AI enthusiasm
+- Score falls from 63 to 61: price down on strong market day; avg PT essentially at price; foldable risk; relative weakness = no near-term alpha case
 
-SCORE: 40/100
+SCORE: 61/100
 
 ---
 
-## SMCI — SCORE: 22/100
-**Date: 2026-07-09**
+## PLTR — SCORE: 63/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Catalyst (17/25)
+- Price recovering to ~$134.22 (from July 9 range of $124.81-$130.12) — multi-day stabilization underway
+- DA Davidson Buy PT $175 intact; "grown into its valuation" thesis
+- Q1 2026 revenue +85% YoY; raised guidance to ~$7.65B for full year
+- Market cap $309.4B; 52-week high $207.52 — still well below peak
+- Earnings August (no near-term binary risk)
+
+### Sentiment (16/25)
+- 21 analyst Buy; avg target $181.63 (35%+ upside from $134 current)
+- DA Davidson conviction upgrade fresh; but 141x P/E still creates sell-side debate
+- Price action has been weak (declining from $134→$127→recovering) despite positive analyst action
+- Insider selling cited as headwind
+
+### Technical (14/25)
+- Price around $134; below 100 EMA ($132.92) and 100 SMA ($133.89) — still underwater key MAs
+- Recovery from $124.81 low is constructive but needs to close above $135+ to signal trend change
+- Stock has been declining while AMD/NVDA rose — stock-specific weakness persists
+- 52-week low $106.37 is support; current $134 is well above that floor
+
+### Market Context (16/25)
+- Government AI contracts durable; NVIDA partnership, Latin American expansion = diversified revenue
+- AI software names recovering with sector; PLTR partially correlated
+- Score rises slightly from 64 to 63 (minor adjustment): price recovering off lows is a mild positive; but still below key MAs and below threshold; wait for $135+ close to revisit
+
+SCORE: 63/100
+
+---
+
+## SOFI — SCORE: 55/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Catalyst (13/25)
+- Fell 4.6% to $17.75 on July 7, 2026; -32% YTD — sustained downtrend
+- Goldman Sachs raised PT from $17→$21 (July 7) — fresh tier-1 PT raise is a positive signal
+- New products: Small Business Loans, AI-powered trading toolbox (Composer), SoFi Social 50 Income ETF
+- Keefe Bruyette maintains Underperform with $16 PT — significant sell-side dissent
+- July 29 earnings is the real catalyst; current pre-earnings data unimpressive
+
+### Sentiment (13/25)
+- 15 analyst Hold consensus; Barclays Hold; Keefe Bruyette Underperform
+- Goldman PT raise to $21 is positive but consensus is still Hold
+- GF Value considers stock overvalued at $17.75 level
+- 24/7 Wall St. predicts 13% upside (to ~$20.58) with "buy" but this is minority view
+
+### Technical (14/25)
+- $17.75 after 4.6% drop; below all major MAs; -32% YTD = extended downtrend
+- CEO + ARK buying signals value floor but no price confirmation
+- RSI likely 35-45 range; not yet confirming reversal
+- July 29 earnings is the technical inflection to watch
+
+### Market Context (15/25)
+- Financials sector performing well generally; SOFI not benefiting from sector tailwind
+- Goldman PT raise is constructive but overwhelmed by hold consensus + underperform
+- Score drops from 57 to 55: 4.6% drop + GF Value overvalued call + Keefe Bruyette Underperform = further deterioration; wait for earnings July 29
+
+SCORE: 55/100
+
+---
+
+## COIN — SCORE: 50/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Catalyst (11/25)
+- CLO Paul Grewal stepping down July 31, 2026 after 6 years — leadership/execution risk signal
+- Price $160.19 (range $159.02-$167.98 on July 10) — consolidating
+- UK regulatory approval for stocks, derivatives, stablecoins, savings — strategic expansion (prior catalyst, still valid)
+- Earnings approaching (late July) — binary event risk increasing
+- Crypto market cap fell -50% from late-2025 highs to ~$2T — structural headwind to trading revenue
+
+### Sentiment (12/25)
+- 27 analyst Buy; avg target $229 — significant upside but being eroded by fundamental concerns
+- Barclays lowered PT to $99 (from $107) — aggressive bear case; implies 38% downside from current price
+- CLO departure adds to institutional concern about execution
+- JPMorgan, Barclays flagging weak crypto trading pressure; fundamental deterioration ongoing
+
+### Technical (13/25)
+- $160 price; trading below 30-day volume averages in recent sessions — volume criterion at risk
+- Range-bound consolidation $157-$168; no breakout direction confirmed
+- RSI estimated 40-48 range; neutral to soft
+- Q1 2026: net loss $394M; revenue -$600M YoY — fundamentals declining
+
+### Market Context (14/25)
+- Crypto market weakness is structural (not macro): -50% market cap = fewer active traders = COIN revenue pressure
+- CLO departure removes an experienced regulatory advocate at a critical time
+- Score drops from 56 to 50: CLO departure + Barclays PT cut to $99 + crypto market cap -50% from peak = increased risk profile; still holding but multiple headwinds now converging
+
+SCORE: 50/100
+
+---
+
+## RIVN — SCORE: 42/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Catalyst (11/25)
+- Stabilizing in $18-$19.91 range (RIVN reached high $19.91 after prior week's offering-driven selloff)
+- Q2 deliveries 12,194 (beat vs 9,000-11,000 prior guidance); raised 2026 delivery guidance to 65,000-70,000
+- R2 production ramp funded by $1.5B offering + DOE loan proceeds
+- Tesla +6% on July 6 pulled EV sector up; RIVN rose 7% in sympathy (per Yahoo Finance article)
+- Competitive positioning vs Tesla Model Y via R2 SUV remains the long-term thesis
+
+### Sentiment (10/25)
+- Hold consensus; JPMorgan raised delivery forecast but maintains Sell rating
+- Analyst targets cluster ~$18 median (avg $18.24) — stock now trading above median target
+- 75M share offering at $15.50 created dilution; market now above offering price = overhang partially absorbed
+- Limited analyst conviction above current price levels
+
+### Technical (12/25)
+- Recovering from $16.38 (July 9 low) toward $19.91 high — absorption of offering underway
+- Support at $15.50 (offering price) now established floor
+- Price above offering floor = offering fully absorbed by market at these levels
+- Still below all major MAs from pre-offering levels; trend not confirmed positive
+
+### Market Context (9/25)
+- EV sector overall mixed; TSLA leading but RIVN's dilution story is company-specific
+- Delivery beat + guidance raise = management execution positive
+- Score rises slightly from 40 to 42: $18-20 range with delivery beat + guidance raise is modest positive; but trading at/above median analyst target limits upside; offering absorption still needs 1-2 more weeks of confirmation
+
+SCORE: 42/100
+
+---
+
+## SMCI — SCORE: 20/100
+**Date: 2026-07-11 (Friday July 10 close data)**
 
 ### Catalyst (5/25)
-- Kubernetes Edge AI appliance with Red Hat + Everpure launched (small positive product news)
-- Stock rose 2.6% on appliance announcement — market briefly rewarded product innovation
-- $37.25 avg analyst target (19 analysts, Hold consensus) suggests 41.91% upside — but from depressed base
+- Trading $28.24 on July 10; 52-week range $19.48-$62.36 — at low end of range
+- Strong Q3 FY2026 results ($10.24B revenue, $0.84 EPS) but market not rewarding fundamentals
+- Kubernetes Edge AI appliance (Red Hat + Everpure partnership) — minor product positive
+- $37.25 average analyst target (32% upside) — but from depressed base driven by legal/governance issues
 
 ### Sentiment (5/25)
-- Hold consensus (19 analysts) — no Buy conviction from analyst community
-- Taiwan criminal probe: employees detained; $2.5B chip smuggling allegations remain active
-- Securities class action lawsuits in U.S. courts active
-- Governance discount: prior 2024–2025 accounting probe cleared but credibility not fully restored
+- 5 Buy / 3 Sell / majority Neutral — very weak analyst conviction
+- 29% monthly decline from $7B equity raise + export-control concerns
+- Taiwan criminal probe: two employees detained for alleged $2.5B Nvidia chip smuggling to China
+- Securities class action lawsuits active in U.S. courts; governance credibility impaired
 
-### Technical (6/25)
-- Market cap $18.22B; down -12.72% past week before today's partial recovery
-- In confirmed downtrend; below all major MAs
-- 2.6% bounce on appliance news insufficient to change technical picture
-- Earnings Aug 11 — no near-term catalyst to change trajectory before then
+### Technical (4/25)
+- $28.24 at low end of 52-week range; confirmed downtrend
+- 29% monthly decline = bearish momentum; no reversal signal
+- Export control enforcement risk could trigger further government action
+- Earnings August 11 — potential catalyst but not near-term enough to change thesis
 
 ### Market Context (6/25)
-- Taiwan probe is company-specific and escalating — not a macro-driven decline
-- DOJ/BIS export control enforcement risk remains; potential regulatory escalation
-- Score rises slightly from 16 to 22: Kubernetes appliance launch is a real product positive and Hold consensus beats "Avoid"; Taiwan probe remains the core risk
-- AVOID: criminal investigation + governance concerns = unacceptable risk for this strategy
+- Criminal probe is company-specific and escalating, not macro-driven
+- $7B equity raise + criminal probe + export controls = three simultaneous structural headwinds
+- Score drops from 22 to 20: probe ongoing; no positive resolution signal; monthly decline of 29% = confirmed negative trend
+- AVOID: criminal investigation active; unacceptable risk profile for this strategy
 
-SCORE: 22/100
+SCORE: 20/100
 
 ---
 
-## SH (ProShares Short S&P 500) — SCORE: 28/100
-**Date: 2026-07-09**
+## QQQ — SCORE: 58/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Context (used as market gauge, not entry target)
+- Nasdaq +1.3% (+336.24 pts) to 26,206.89 on July 10 — strong session for tech
+- IT sector +1.2% (XLK) and Energy +1.8% (XLE) were the two sectors that rose on the day
+- Nine of 11 S&P sectors ended negative — IT was the clear winner
+- QQQ components: META +6.85%, NVDA +3.2%, AMD strong two-session recovery
+- Weekly performance: "Nasdaq and S&P 500 made back losses this week; Dow falls short" — tech reclaimed weekly gains
+
+### Score (informational)
+- Score rises from 55 to 58: Nasdaq +1.3% led by AI mega-caps is a meaningful improvement; but ETF entry is not our strategy; used for market context and volume breadth confirmation
+
+SCORE: 58/100
+
+---
+
+## SPY — SCORE: 68/100
+**Date: 2026-07-11 (Friday July 10 close data)**
+
+### Market Status
+- S&P 500 closed July 10 at 7,543.64 (+0.8%)
+- SPY estimated close: ~$750-$752 (SPY tracks S&P 500; index +0.8% from Thursday)
+- SPY 5-day MA (as of Thursday): ~$742.96-$745 range; SPY Friday close ~$750-752 = clearly ABOVE 5-day MA
+- Full week recovery: "S&P 500 is pacing for roughly 1% advance on the week"
+- IT sector and Energy the two positive sectors; nine of 11 negative but index rose on market cap weighting
+- SK Hynix Nasdaq IPO ($170, +14%) signals strong semiconductor investor appetite
+
+### Technical
+- SPY above 5-day MA by approximately $7-10 (meaningful positive cushion)
+- VIX: 15.67 on July 10 — well below 28 threshold; low-volatility environment
+- Dow +0.3%; S&P +0.8%; Nasdaq +1.3% — risk-on, tech-led session
+- Weekly performance: tech reclaimed full-week gains despite mid-week Iran ceasefire disruption
+
+SCORE: 68/100
+
+---
+
+## SH (ProShares Short S&P 500) — SCORE: 22/100
+**Date: 2026-07-11 (Friday July 10 close data)**
 
 *Note: SH is only evaluated for entry when SPY is BELOW its 5-day moving average. Entry threshold is 60/100.*
 
 ### Trigger Assessment
-- SPY 5-day MA: $742.96 — SPY trading at $745.40 (July 9) = $2.44 ABOVE 5-day MA
-- Margin improved from July 8 (barely above) to today (clearly above); SH trigger condition NOT met
-- Semi sector rebound July 9 confirms bullish momentum; SPY trend strengthening
-- VIX 16.90 — no fear spike; SH entry conditions not met on any dimension
+- SPY ~$750-752 (Friday close) vs 5-day MA ~$742-745 = SPY approximately $7-10 ABOVE its 5-day MA
+- Nasdaq +1.3% on July 10; IT sector +1.2%; S&P +0.8% — all measures confirm bullish momentum
+- VIX declining to 15.67 — no fear spike; market confidence rising
+- Dow recovered fully for the week; Iranian ceasefire disruption absorbed
+- SH trigger condition NOT met on any dimension; SH would be declining
 
 ### Scoring (informational only — not actionable)
-- Bearish catalyst: 6/25 (Iran geopolitical risk still present; tech rotation persisting but easing)
-- Bearish sentiment: 7/25 (VIX mild uptick 16.36→16.90; but not alarming; bullish sector developments)
-- Technical for SH: 7/25 (SPY clearing 5-day MA with better margin; SH would be declining today)
-- Market context for SH: 8/25 (chip rebound is anti-SH catalyst; semiconductor H200 news is market-positive)
+- Bearish catalyst: 5/25 (minimal — geopolitical risk persists but not escalating)
+- Bearish sentiment: 6/25 (VIX falling, not rising; market breadth improving)
+- Technical for SH: 5/25 (SPY above 5d MA with margin; SH inverse would be falling)
+- Market context for SH: 6/25 (tech-led bull session; semiconductor enthusiasm; SK Hynix IPO = risk-on)
 
-SCORE: 28/100
-**SH ENTRY: NOT TRIGGERED — SPY at $745.40, clearly above 5-day MA ($742.96). Chip sector rebound confirms bullish market momentum. SH thesis has weakened today vs July 8.**
+SCORE: 22/100
+**SH ENTRY: NOT TRIGGERED — SPY ~$750-752, clearly above 5-day MA (~$742-745). Nasdaq +1.3% July 10. VIX 15.67 and declining. SH thesis fully rejected by market conditions.**
 
 ---
 
-*Research run completed: 2026-07-09 pre-market ET*
+*Research run completed: 2026-07-11 pre-market ET (based on 2026-07-10 Friday close data)*
 *Tickers scanned: 16 (AAPL, MSFT, NVDA, TSLA, AMZN, META, GOOGL, AMD, SMCI, PLTR, SOFI, RIVN, COIN, SPY, QQQ, SH)*
-*Tickers meeting entry threshold (>=70): META (80), MSFT (74), NVDA (75), AMD (73), TSLA (71), AMZN (70)*
-*Tickers just below threshold (60–69): PLTR (64), GOOGL (65), AAPL (63)*
-*SH entry threshold (>=60): NOT triggered — SPY clearly above 5-day MA; score 28/100*
+*Tickers meeting entry threshold (>=70): META (86), NVDA (78), AMD (76), MSFT (72), AMZN (71)*
+*Tickers just below threshold (60–69): TSLA (68), SPY-context (68), GOOGL (66), PLTR (63), AAPL (61)*
+*SH entry threshold (>=60): NOT triggered — SPY clearly above 5-day MA; score 22/100*
+*SMCI: AVOID — criminal probe active; do not enter*

@@ -3,6 +3,10 @@
 Append-only log of bot decisions, rationale, and reflections.
 Each entry is timestamped and written by the /journal skill or agents.
 
+## [2026-07-10 17:14 ET]
+Pre-market research complete. 16 tickers scanned (AAPL, MSFT, NVDA, TSLA, AMZN, META, GOOGL, AMD, SMCI, PLTR, SOFI, RIVN, COIN, SPY, QQQ, SH). Top candidates: META(86) — SemiAnalysis superintelligence report drove +6.85% surge, earnings July 29; NVDA(78) — +3.2% on earnings optimism and China H200 demand; AMD(76) — +5.67% July 9 on Q2 guidance +46% YoY, Goldman $640 PT. MSFT(72) and AMZN(71) also above threshold. TSLA dropped to 68 (below threshold) on cautious Citizens initiation. SMCI(20) flagged AVOID — active Taiwan criminal probe. Market TRADE_OK=yes: SPY above 5-day MA (~$750-752 vs MA ~$742-745), VIX=15.67 (well below 28 cap, near monthly low). Sector advance narrow — IT and Energy only positive sectors. daily_loss_halt=false, 0/3 weekly trades used.
+---
+
 ## [2026-07-03 16:58 ET]
 Intraday monitor (11:30 ET scheduled run). No open positions in open_positions.md — no stop-loss or take-profit checks required. Portfolio equity: $99,873.35. Daily P&L: $0.00 (0.00%). Daily loss cap (-2%) not triggered. daily_loss_halt remains false. No actions taken.
 ---
@@ -587,4 +591,8 @@ Intraday monitor (9:30 ET scheduled run). weekly_trade_counter.md: daily_loss_ha
 
 ## [2026-07-10 13:07 ET] — Market-Open Skipped (stale research)
 Market-open routine invoked. weekly_trade_counter.md: daily_loss_halt=false, trades_this_week=0/3 (week of 2026-07-07) — no halt, no trade-limit block. However, research_cache.md and daily_context.md are both still dated 2026-07-09 (last research run completed 2026-07-09 15:51 ET) — the pre-market-research routine has not yet produced fresh data for today's session. Candidates on file (META 80, NVDA 75, MSFT 74, AMD 73, TSLA 71, AMZN 70) and context (SPY $745.40 above 5-day MA $742.96, VIX 16.90, TRADE_OK=yes) are all one trading day old. Consistent with the precedent set on 2026-07-06 and 2026-07-09 runs, no trade_trigger.md was written this invocation to avoid trading on stale data. open_positions.md confirmed empty (no existing positions to reconcile). Recommend the pre-market-research routine run before the next market-open attempt.
+---
+
+## [2026-07-11 11:30 ET] — Intraday Monitor
+Intraday monitor (11:30 ET scheduled run). weekly_trade_counter.md: daily_loss_halt=false, trades_this_week=0/3 (week of 2026-07-07) — clear to proceed. open_positions.md: none — portfolio remains flat/cash-only since NVDA closed EOD 2026-06-22, so no stop-loss, take-profit, or SH inverse ETF exit checks were required. Alpaca GET /v2/account confirmed: equity $99,873.35 = last_equity $99,873.35 — daily P&L $0.00 (0.00%), well within the -2% halt threshold. daily_loss_halt remains false. No exits, no trades, no alerts sent. All clear. Note: uncommitted local changes present in engine/technical.py, memory/trade_trigger.md, and utils/alpaca_client.py from a prior session — left untouched, not part of this routine's scope.
 ---
