@@ -100,3 +100,40 @@
 5. **New**: Log skip decisions in trade_log.md (not just executed trades) — record date, reason for skip, top candidate scores/volume at time of skip
 6. **New**: Evaluate whether 2x volume threshold is too restrictive — backtest 1.5x threshold against Week 1 candidates (PLTR 1.28x, NVDA 1.12x, META 1.09x would still not qualify at 1.5x, but worth reviewing over broader history)
 7. **New**: Track weekly alpha running total — currently -0.41% week 2; need 5+ weeks to determine if filters add net value vs. SPY buy-and-hold
+
+---
+
+## Weekly Reflection — Week of 2026-07-07 (Final, logged 2026-07-11)
+
+### Week Stats
+- Trades executed: 0 | Skipped: unknown count (no skip entries logged in trade_log.md) | Wins: 0 | Losses: 0
+- Win rate: N/A | Net P&L: $0.00 | Avg loss: N/A
+- Portfolio: $99,873.35 (unchanged for third consecutive week)
+- SPY performance this week: +0.46% (Jul 7 $751.63 -> Jul 10 $755.10)
+- Alpha vs SPY: -0.46% (flat portfolio underperformed a rising market)
+- Cumulative alpha since inception: ~+0.59% (roughly netting week 1's +1.46% against week 2's -0.41% and week 3's -0.46%)
+
+### Signals That Worked
+- **VIX stayed low and stable all week (15.53-23.34 range, ending 15.67 on Jul 10)** — no VIX-driven halts were needed, confirming the VIX<28 gate is not the binding constraint right now.
+- **No hard rules broken** — daily loss cap, trade limit, and position sizing never triggered because zero trades were placed; the bot did not force a bad entry just to stay active.
+
+### Signals That Failed
+- **Three consecutive weeks with 0-1 trades total** — the bot has executed only 1 trade in 3 weeks against a 3/day (15/week) budget. Either qualifying setups are genuinely rare, or a filter (likely the volume multiplier) is over-restrictive.
+- **daily_context.md shows 5 tickers cleared for entry (META 86, NVDA 78, AMD 76, MSFT 72, AMZN 71) as of Friday close, all above the 70 score threshold** — yet no trade was placed this week. This strongly suggests the volume confirmation filter (or timing of the market-open routine relative to intraday volume data) is the actual bottleneck, not research quality.
+- **trade_log.md has not been updated since 2026-06-25** — daily skip decisions are not being written to the log despite the Week 1 action item to do so. This is now a 3-week-old open item and is starting to block weekly analysis (cannot tell whether Mon-Fri this week had near-miss setups or no candidates at all).
+
+### VIX Conditions
+- VIX ranged 15.53-23.34 over the trailing month, closing the week at 15.67 (near the low end) — a low-fear, low-volatility regime.
+- Low VIX combined with zero trades suggests the bottleneck is not risk-off caution; the entry criteria (volume/score combination) simply aren't being satisfied by watchlist tickers at market-open.
+
+### Emerging Patterns (Week 3 of 3 tracked — low-to-moderate confidence)
+- **Persistent under-trading in a calm, rising market**: With VIX low and SPY trending up 3 of the last 3 weeks, a strategy that trades 0-1 times per week is leaving the 3-trades/day budget almost entirely unused. If this continues for 2+ more weeks, the volume threshold (1.25x per config.py, though watchlist.md/strategy.md still reference a stricter historical 2x in earlier logs) should be re-examined against actual realized watchlist volume.
+- **Score threshold (70) is being cleared regularly** (5 tickers >=70 as of Jul 10) without translating into trades — reinforces that score is not the limiting factor.
+
+### Open Action Items (carry forward to Week 4)
+1. *(Unresolved, 3 weeks running)* Log skip decisions in trade_log.md daily — record date, reason for skip, top candidate scores/volume at time of skip. This is now the highest-priority gap.
+2. *(Unresolved)* Add VIX at entry to trade log template
+3. *(Unresolved)* Formalize overnight confidence threshold: Perplexity confidence < 70 = mandatory EOD close
+4. *(Unresolved)* Add valuation risk modifier: flag reduces research score by 7 points
+5. **New**: Audit whether the market-open routine is actually re-checking volume against the current MIN_VOLUME_MULTIPLIER (1.25x per config.py) or a stale stricter value — 3 weeks of near-zero trading with scores clearing 70+ warrants a code-level check of engine/risk_manager.py's volume gate
+6. **New**: Reconcile trade_log.md (stale since 06-25) with weekly_trade_counter.md and portfolio_state.md (both current) — pick one source of truth and keep it updated daily
