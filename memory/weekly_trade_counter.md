@@ -1,9 +1,9 @@
 # Weekly Trade Counter
 
 Week of: 2026-07-07
-trades_this_week: 0
+trades_this_week: 1
 max_trades_per_week: 3
-trades_remaining: 3
+trades_remaining: 2
 
 ## Halt Flags
 daily_loss_halt: false
@@ -39,3 +39,5 @@ daily_loss_halt set to false (was already false). trades_this_week reset to 0 (w
 
 ## EOD Reset — 2026-07-16 (Thursday EOD, closing 2026-07-15 session)
 daily_loss_halt set to false (was already false). trades_this_week reset to 0 (was already 0 — no trades placed on 2026-07-15).
+
+- 2026-07-16: BUY AMZN @ $254.25 (counted)
