@@ -36,3 +36,6 @@ daily_loss_halt set to false. trades_this_week reset to 0 (was already 0 — no 
 
 ## EOD Reset — 2026-07-15 (Wednesday EOD, closing 2026-07-14 Tuesday session)
 daily_loss_halt set to false (was already false). trades_this_week reset to 0 (was already 0 — no trades placed on 2026-07-14).
+
+## EOD Reset — 2026-07-16 (Thursday EOD, closing 2026-07-15 session)
+daily_loss_halt set to false (was already false). trades_this_week reset to 0 (was already 0 — no trades placed on 2026-07-15).
