@@ -17,6 +17,50 @@ All trading happens on **Alpaca** (currently paper trading — fake money, no re
 
 ---
 
+## Getting Started (New User Setup)
+
+### 1. Prerequisites
+- Python 3.10+
+- A GitHub repo for this project (used to back up `memory/` state — see [Backup & Syncing](#backup--syncing))
+- Accounts on: [Alpaca](https://alpaca.markets) (paper trading), [Perplexity AI](https://www.perplexity.ai) (research), Gmail (reports)
+
+### 2. Install dependencies
+```
+pip install -r requirements.txt
+```
+This installs `alpaca-py`, `anthropic`, `gitpython`, `python-dotenv`, `requests`, `pytz`, and `schedule`.
+
+### 3. Configure credentials
+Copy `.env.example` to `.env` and fill in your real values — **never commit `.env`**:
+
+| Variable | Where to get it |
+|---|---|
+| `ALPACA_API_KEY` / `ALPACA_SECRET_KEY` | Alpaca dashboard → Paper Trading → API Keys. Leave `ALPACA_BASE_URL` pointed at `paper-api.alpaca.markets` until you're ready to go live |
+| `PERPLEXITY_API_KEY` | Perplexity AI account → API settings |
+| `EMAIL_SENDER` / `EMAIL_PASSWORD` | A Gmail address + an [App Password](https://support.google.com/accounts/answer/185833) (not your real Gmail password) |
+| `EMAIL_RECIPIENT` | Where reports get sent (defaults to `jankla2010@gmail.com` if unset) |
+| `GITHUB_TOKEN` / `GITHUB_REPO` / `GITHUB_BRANCH` | A GitHub personal access token with repo write access, and the `owner/repo` this bot's `memory/` files sync to |
+
+### 4. Start the bot
+```
+python main.py
+```
+This starts a long-running scheduler loop (see `main.py`) — it does **not** trade immediately. It registers the routines below and checks every 30 seconds whether one is due, plus polls `memory/trade_trigger.md` every 30 seconds for manual trade requests. Leave it running (e.g. in a background terminal, `screen`/`tmux` session, or as a service) for it to operate on schedule. Logs go to `logs/bot.log` and stdout.
+
+### 5. Verify it's working
+- Check `logs/bot.log` for `"AI Trading Bot starting up"` and routine log lines
+- After the next scheduled pre-market research run, check `memory/research_cache.md` for scored tickers
+- You should receive an EOD email report the same day trading starts
+
+### 6. What to expect on day one
+- The bot starts in **paper trading mode** (`live_trading: false` in `memory/strategy.md`) — no real money is at risk
+- It won't necessarily place a trade on the first run — entries only happen when [all 5 entry rules](#the-5-rules-before-any-trade) pass
+- Read the rest of this manual (below) to understand what it's doing and why before you consider flipping it to live trading
+
+> **Note on times:** `main.py`'s schedule is written in US Eastern Time (ET) — e.g. `08:33`, `09:37`, `15:47`. The [Daily Schedule](#daily-schedule-bangkok-time--ict) section below describes the same routines converted to Bangkok time (ICT) for reference.
+
+---
+
 ## Key Terms Explained
 
 | Term | What It Means |
@@ -104,12 +148,19 @@ For SH (inverse ETF): max is **3% of portfolio** — smaller because inverse ETF
 | High-beta stocks (volatile, beta > 1.5) | 7% below entry price |
 | SH (inverse ETF) | 5% below entry price |
 
-### Take-Profit (lock in gains — sold in 3 stages)
+### Take-Profit (lock in gains)
 | Level | Gain | Action |
 |---|---|---|
 | Tier 1 | +8% | Sell 33% of position |
 | Tier 2 | +15% | Sell another 33% |
 | Tier 3 | +25% | Sell final 34% |
+
+These three tiers are recorded as the plan at entry time, but the intraday monitor currently enforces exits through two mechanisms instead of firing three separate partial sells:
+
+1. **Broker-side stop-limit order** — placed automatically the moment a trade opens, at the stop-loss price. This protects the position even if the bot is offline, since Alpaca holds the order, not the bot.
+2. **Trailing stop after Target 1** — once the price reaches +8% (Target 1), the bot starts tracking the intraday high. If price then pulls back 3% from that high, the *entire remaining position* is closed (not just a partial sell). This is the trailing-stop mechanism, separate from the fixed 5%/7% stop-loss above.
+
+In practice this means a winning trade is far more likely to exit in one shot via the trailing stop than to be sold off in three discrete 33% chunks at each tier.
 
 ### Force-Close Triggers (sell immediately regardless of P&L)
 - Perplexity AI detects a major negative news reversal for the stock
@@ -158,7 +209,8 @@ All state is stored as text files in the `memory/` folder. You can read and edit
 | `open_positions.md` | All currently held positions with entry, stop, and targets |
 | `trade_log.md` | Complete history of every trade ever made |
 | `portfolio_state.md` | Current cash, equity, and daily P&L |
-| `weekly_trade_counter.md` | Trades placed today + halt flags |
+| `weekly_trade_counter.md` | Despite the name, this tracks *today's* trade count and the daily loss halt flag — it's reset to 0 every day at EOD, not weekly |
+| `trade_trigger.md` | Manual/on-demand trade request. Set `status: pending` and the bot picks it up and runs a market-open evaluation immediately, then updates status to `executing` → `done` (or `error` with details) |
 | `benchmark_tracking.md` | Daily portfolio vs SPY performance comparison |
 | `performance_metrics.md` | Overall win rate, profit factor, all-time stats |
 | `learned_patterns.md` | Weekly reflections on what worked and what didn't |
@@ -166,6 +218,14 @@ All state is stored as text files in the `memory/` folder. You can read and edit
 | `risk_rules.md` | Numerical thresholds (editable to tune the bot) |
 | `news_events.md` | Upcoming earnings, Fed meetings, economic calendar |
 | `pending_orders.md` | Orders placed but awaiting fill |
+
+---
+
+## Backup & Syncing
+
+Before each routine runs, the bot pulls the latest `memory/` files from GitHub. After any action that changes state (trade opened/closed, halt triggered, counters reset, report sent), it commits and pushes the `memory/` folder back to GitHub automatically. This means:
+- Every decision is versioned — you can see the full history in the GitHub commit log
+- If you edit a memory file by hand and the bot is about to run, make sure your edit is saved before the scheduled time, or it may be overwritten by the next pull
 
 ---
 
@@ -209,6 +269,9 @@ The bot sends emails to `jankla2010@gmail.com` for:
 
 - **Mode:** Paper trading (fake money)
 - **Starting balance:** $100,000
-- **Trades made:** 1 (NVDA, closed at -$126.63)
-- **Current equity:** ~$99,873
+- **Trades made:** 6 (NVDA, AMZN, META, NVDA, AAPL, META — all closed same-day, no overnight holds yet)
+- **Current equity:** ~$99,648 (as of 2026-07-17 EOD)
+- **Open positions:** 0
 - **Inverse ETF:** SH added to watchlist — will activate when SPY is below 5-day MA
+
+This section reflects a point-in-time snapshot and will drift out of date — check `memory/portfolio_state.md` and `memory/trade_log.md` for the current numbers.
