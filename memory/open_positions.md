@@ -1,6 +1,6 @@
 # Open Positions
 
-Last updated: 2026-07-20 11:34 ET (intraday monitor routine)
+Last updated: 2026-07-20 11:50 ET (intraday monitor routine)
 
 | Ticker | Shares | Entry Price | Entry Date | Cost Basis | Stop-Loss | TP1 (+8%) | TP2 (+15%) | TP3 (+25%) | Order ID |
 |---|---|---|---|---|---|---|---|---|---|
@@ -14,6 +14,14 @@ price $647.955 (+1.14% vs entry) — no stop-loss or TP trigger. AMZN current
 price $251.58 (+0.38% vs Alpaca avg entry) — no stop-loss or TP trigger.
 Portfolio equity $99,705.51 vs last_equity $99,648.12 = +0.058% daily, well
 within -2% halt threshold. No exits executed this check.
+
+NOTE (2026-07-20 11:50 ET): Intraday check. AAPL current price $324.335 (-0.697%
+vs Alpaca avg entry $326.61) — no stop-loss ($310.43) or TP trigger. META current
+price $651.826 (+1.747% vs entry $640.637143) — no stop-loss or TP trigger. AMZN
+current price $252.585 (+0.779% vs entry $250.632105) — no stop-loss or TP trigger.
+No SH position held (SPY inverse-ETF logic not applicable). Portfolio equity
+$99,730.39 vs last_equity $99,648.12 = +0.0826% daily, well within -2% halt
+threshold. No exits executed this check.
 
 DRIFT FLAG (recurring): Alpaca GET /v2/positions shows AMZN (19sh) still open,
 but trade_log.md/open_positions.md history says AMZN was force-closed EOD on
