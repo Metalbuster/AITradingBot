@@ -807,3 +807,7 @@ Benchmark logged. Portfolio: $99,648.12 (-0.00%) | SPY: $743.28 (0.00%, weekend/
 ## [2026-07-18 weekly-summary ET] -- Weekly Report Sent
 Weekly summary email sent to jankla2010@gmail.com. Subject: Trading Bot -- Weekly Summary | 2026-07-18. Week stats: 5 trades executed (07-16, 07-17), 2 wins, 3 losses, 40.0% win rate, net P&L -$225.20. Alpha vs SPY: ~+0.50% (portfolio -0.23% vs SPY -0.73% over the week). Performance metrics and learned patterns updated -- see performance_metrics.md and learned_patterns.md for full detail.
 ---
+
+## [2026-07-20 pre-market-research ET]
+Research complete. 16 tickers scanned (AAPL, MSFT, NVDA, TSLA, AMZN, META, GOOGL, AMD, SMCI, PLTR, SOFI, RIVN, COIN, SPY, QQQ, SH). Top candidates: META (77), AMZN (73), AAPL (73) -- all above the 70 threshold, all require volume confirmation >=1.25x 30-day avg before entry. TSLA and GOOGL excluded (earnings July 22); AMD AI Conference July 22-23 also flagged as binary event risk. Market TRADE_OK=yes: SPY above 5-day MA, VIX ~18.77 (below 28 halt threshold but up 12.19% in a single session -- highest recent reading). SPY's cushion above its 5-day MA has collapsed to $0.33 from $7.76 three days ago -- fragile, could flip to SH-mode intraday if SPY opens flat/down. SH inverse ETF score rose to 38 (from 20); re-score if SPY crosses below $742.96. research_cache.md and daily_context.md updated.
+---
