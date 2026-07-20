@@ -1,16 +1,22 @@
 # Open Positions
 
-Last updated: 2026-07-17 15:50 ET (EOD Saturday-cycle routine)
-
-No open positions. AAPL (14sh) and META (7sh) were both force-closed EOD today —
-no overnight-specific catalyst found for either. See trade_log.md and reasoning.md.
-
-## Position History
+Last updated: 2026-07-20 09:39 ET (intraday monitor routine)
 
 | Ticker | Shares | Entry Price | Entry Date | Cost Basis | Stop-Loss | TP1 (+8%) | TP2 (+15%) | TP3 (+25%) | Order ID |
 |---|---|---|---|---|---|---|---|---|---|
-| AAPL | 14 | $333.806428 | unknown (found on Alpaca, not previously recorded) | $4,673.29 | $317.12 | $360.51 | $383.88 | $417.26 | unknown (close: 6c34b9ae-1b67-4c0d-b5f1-9437849ab6f4) |
-| META | 7 | $639.67 | unknown (found on Alpaca, not previously recorded) | $4,477.69 | $607.69 | $690.84 | $735.62 | $799.59 | unknown (close: f57b9be6-5e7c-4c96-aa26-d188a86c42e7) |
+| META | 7 | $640.637143 | 2026-07-20 (found on Alpaca, not previously recorded — opened by market-open trigger) | $4,484.46 | $608.61 | $691.89 | $736.73 | $800.80 | unknown |
+
+NOTE (2026-07-20 09:39 ET): Intraday check. Same memory/live-account drift as
+2026-07-16/17 — open_positions.md said "no open positions" but Alpaca GET
+/v2/positions shows META (7sh, avg entry $640.637143) opened by today's 08:37 ET
+market-open trigger, never logged here or in trade_log.md. Current price $642.64
+(+0.31% vs entry) — no stop-loss or TP trigger. Portfolio equity $99,662.00 vs
+last_equity $99,648.12 = +0.014% daily, well within -2% halt threshold. No exits
+executed this check. Flagging again: coordinator.py/risk_manager.py/technical.py/
+reporter.py/alpaca_client.py all still show uncommitted edits per git status —
+likely still the root cause of positions not being written to memory on fill.
+
+## Position History
 
 NOTE (2026-07-17 11:30 ET): Intraday check. AAPL current price $331.85 (-0.59% vs entry) —
 no stop-loss or TP trigger. META current price $643.71 (+0.63% vs entry) — no stop-loss
