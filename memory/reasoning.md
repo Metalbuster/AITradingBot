@@ -1,5 +1,9 @@
 # Reasoning Journal
 
+## [2026-07-21 07:33 ET]
+Research complete. 16 tickers scanned (AAPL, MSFT, NVDA, TSLA, AMZN, META, GOOGL, AMD, SMCI, PLTR, SOFI, RIVN, COIN, SPY, QQQ, SH). Top candidates: META(73), AMZN(70), MSFT(70). Market TRADE_OK=yes, VIX=18.65. SPY closed $741.93 on 7/20, $2.13 below its 5-day MA ($744.06) — blocks regular stock entries per strategy rules. SH evaluated as fallback: scored 52/100, below the 60 threshold (Nasdaq futures +1.3% pre-market, SPY RSI 35.32 signals oversold bounce not confirmed downtrend) — no SH entry either. Net: no entries expected at market open unless SPY reclaims $744.06 or breaks $739.53 (50-day MA, would push SH score toward 65-70). Results written to research_cache.md and daily_context.md.
+---
+
 ## [2026-07-20 11:50 ET]
 Intraday monitor (11:30 AM ET scheduled run, executed ~11:50 ET). weekly_trade_counter.md: daily_loss_halt=false, trades_this_week=1/3 (AAPL BUY, week of 2026-07-07) — no halt, proceeded. open_positions.md/Alpaca GET /v2/positions: AAPL (15sh), META (7sh), AMZN (19sh) — none is SH, so no SPY/5-day MA check applies. Alpaca positions: AAPL avg entry $326.61, current $324.335 (-0.697%) — stop-loss $310.43, TP1 $352.91, neither hit. META avg entry $640.637143, current $651.826 (+1.747%) — stop-loss $608.61, TP1 $691.89, neither hit. AMZN avg entry $250.632105, current $252.585 (+0.779%) — computed stop-loss $238.10, TP1 $270.68, neither hit. Alpaca GET /v2/account: equity $99,730.39 vs last_equity $99,648.12 — daily P&L +0.0826%, well within the -2% halt threshold. daily_loss_halt remains false. No exits executed, no trades placed, no alerts sent. Updated open_positions.md with this check's results. AMZN drift (Alpaca shows position open vs trade_log.md showing it force-closed 2026-07-16) still unresolved — same recurring issue previously flagged, still likely tied to uncommitted in-progress edits in engine/coordinator.py, engine/risk_manager.py, engine/technical.py, engine/reporter.py, utils/alpaca_client.py per git status.
 ---
@@ -858,4 +862,8 @@ Benchmark logged. Portfolio: $99,675.84 (+0.03%) | SPY: $741.99 (-0.17%) | Alpha
 
 ## [2026-07-20 15:59 ET]
 EOD report sent to jankla2010@gmail.com.
+---
+
+## [2026-07-21 08:37 ET]
+Market-open trade routine. Pre-checks: weekly_trade_counter.md daily_loss_halt=false, trades_this_week=0/3 — clear to proceed. research_cache.md candidates >=70 (excluding SPY/QQQ): META(73), AMZN(70), MSFT(70). open_positions.md: no open positions. daily_context.md/Market context check: SPY closed $741.93 on 7/20, $2.13 BELOW its 5-day MA ($744.06) — regular stock entries BLOCKED per strategy rules. Checked SH as fallback: SPY-below-MA trigger MET, but SH scored only 52/100, below the required 60 threshold (pre-market Nasdaq +1.3% bounce undermines bearish confirmation; VIX 18.65 not sharply rising; SPY RSI 35.32 signals oversold bounce risk) — no SH entry either. Net result: no trades placed today. No trade_trigger.md written since no candidate cleared all criteria. Will re-evaluate at next market-open run if SPY reclaims $744.06 or SH re-scores above 60.
 ---
