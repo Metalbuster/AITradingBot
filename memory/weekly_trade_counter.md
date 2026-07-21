@@ -61,3 +61,9 @@ daily_loss_halt set to false (was already false; daily gain +0.03%, well within 
 trades_this_week reset to 0/3 (was 1/3 — AAPL entry counted for the week is now cleared
 per scheduled EOD reset instructions; AAPL, AMZN, and META were all force-closed EOD
 today with no overnight thesis — see reasoning.md and trade_log.md).
+
+## EOD Reset — 2026-07-21 (Wednesday EOD)
+daily_loss_halt set to false (was already false; daily change -0.00%, well within -2% cap).
+trades_this_week reset to 0/3 (was already 0/3 — META was a carried-over position from a
+prior undated entry, not a new trade counted this week; force-closed EOD today with no
+overnight thesis — see reasoning.md and trade_log.md).

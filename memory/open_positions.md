@@ -1,6 +1,12 @@
 # Open Positions
 
-Last updated: 2026-07-21 11:30 ET (intraday monitor check)
+Last updated: 2026-07-21 15:57 ET (EOD Wednesday routine — closed to flat)
+
+No open positions. META (7sh) was closed EOD this routine — no strong confirmed
+overnight catalyst found (earnings 7/29, 8 days out). Exit $644.25 avg, P&L -$3.46
+(-0.08%). Alpaca GET /v2/positions confirmed empty after fill.
+
+## Previously Open (closed this routine)
 
 DRIFT (recurring): Alpaca GET /v2/positions shows META (7sh) still open, despite
 open_positions.md/trade_log.md recording it as force-closed EOD on 2026-07-20

@@ -1,17 +1,27 @@
 # Portfolio State
-Last updated: 2026-07-20 15:57 ET (EOD Tuesday routine — Alpaca GET /v2/account live-confirmed)
+Last updated: 2026-07-21 15:57 ET (EOD Wednesday routine — Alpaca GET /v2/account live-confirmed)
 
-- Cash available: $99,675.84
+- Cash available: $99,672.36
 - Invested: $0.00
-- Total equity: $99,675.84
-- Daily P&L: +$27.72 (+0.03%) — AAPL, AMZN, and META force-closed EOD, no overnight thesis
+- Total equity: $99,672.36
+- Daily P&L: -$3.46 (-0.00%) — META force-closed EOD, no overnight thesis
 - Open positions: 0
-- Buying power: $398,703.36 (4× margin)
+- Buying power: $398,689.44 (4× margin)
 - Account status: ACTIVE
 - Mode: PAPER TRADING
 - Account number: PA3XB7R3677S
 
-## Today's Trade Summary (2026-07-20 EOD)
+## Today's Trade Summary (2026-07-21 EOD)
+- At EOD routine start, Alpaca live account held META (7sh, avg entry $644.744285) —
+  same recurring memory/live-account drift flagged repeatedly this week (position not
+  logged as a new open in open_positions.md/trade_log.md; treated Alpaca as source
+  of truth throughout the day's intraday checks).
+- Web research found no new confirmed overnight catalyst (earnings 7/29, 8 days out;
+  Anthropic $10B compute deal and July rally already priced in, no new 24h development).
+- Force-close trigger applied. Realized P&L: META -$3.46 (-0.08%).
+- daily_loss_halt: false — daily change -0.00%, well within -2% cap.
+
+## Previous Day (2026-07-20 EOD) Summary
 - At EOD routine start, Alpaca live account held AAPL (15sh), AMZN (19sh), and META (7sh).
   AAPL was entered earlier today (market-open routine, 11:06 ET); AMZN and META were
   discovered live on Alpaca without prior open_positions.md/trade_log.md entries (same

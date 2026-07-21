@@ -879,3 +879,23 @@ EOD report sent to jankla2010@gmail.com.
 ## [2026-07-21 08:37 ET]
 Market-open trade routine. Pre-checks: weekly_trade_counter.md daily_loss_halt=false, trades_this_week=0/3 — clear to proceed. research_cache.md candidates >=70 (excluding SPY/QQQ): META(73), AMZN(70), MSFT(70). open_positions.md: no open positions. daily_context.md/Market context check: SPY closed $741.93 on 7/20, $2.13 BELOW its 5-day MA ($744.06) — regular stock entries BLOCKED per strategy rules. Checked SH as fallback: SPY-below-MA trigger MET, but SH scored only 52/100, below the required 60 threshold (pre-market Nasdaq +1.3% bounce undermines bearish confirmation; VIX 18.65 not sharply rising; SPY RSI 35.32 signals oversold bounce risk) — no SH entry either. Net result: no trades placed today. No trade_trigger.md written since no candidate cleared all criteria. Will re-evaluate at next market-open run if SPY reclaims $744.06 or SH re-scores above 60.
 ---
+
+## [2026-07-21 15:57 ET] — EOD Wednesday Routine
+Read strategy.md and open_positions.md. Alpaca GET /v2/positions showed META (7sh, avg entry $644.744285) still open despite market-open routine (08:37 ET) reporting no trade placed — same recurring memory/live-account drift flagged 2026-07-16/17/20/21 (engine/coordinator.py, engine/risk_manager.py, engine/technical.py, engine/reporter.py, utils/alpaca_client.py still show uncommitted in-progress edits per git status, likely still the cause). Treated Alpaca as source of truth. No SH held, so the SPY/5-day MA inverse-ETF check was not applicable. Web research for a strong confirmed overnight catalyst on META found none new in the last 24h — earnings still 8 days out (7/29); the Anthropic $10B compute deal and July rally are already-priced-in news, not fresh catalysts. Force-close trigger applied per strategy ("end-of-day with no overnight thesis").
+---
+
+## [2026-07-21 15:57 ET] — META EOD Close Executed
+Submitted market sell-to-close for 7 shares META. Order ID a25d7244-58aa-43e6-9552-5fa0ba7b666e, filled at avg $644.25. Entry $644.744285. P&L: -$3.46 (-0.08%). Alpaca GET /v2/positions confirmed empty after fill. Updated open_positions.md and trade_log.md.
+---
+
+## [2026-07-21 15:57 ET] — Benchmark Logged
+Benchmark logged. Portfolio: $99,672.36 (-0.00%) | SPY: $748.455 (+0.87%) | Alpha: -0.87%.
+---
+
+## [2026-07-21 15:57 ET] — Weekly Counter Reset
+daily_loss_halt confirmed false (daily change -0.00%, well within -2% cap). trades_this_week reset to 0/3 (was already 0/3 — no new entries counted today, META was a carried-over undated position). Per scheduled EOD task instructions.
+---
+
+## [2026-07-21 15:58 ET] — EOD Report Sent
+EOD report sent to jankla2010@gmail.com. Subject: Trading Bot — EOD Summary 2026-07-21 | P&L: -$3.46. Flagged the recurring memory/live-account drift (META open at routine start despite no logged entry) in the email for user follow-up.
+---
